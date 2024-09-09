@@ -1,0 +1,38 @@
+Return-Path: <gilang@sandhiguna.com>
+Delivered-To: gilang@sandhiguna.com
+Received: from smtp.sandhiguna.com
+	by jupiter.sandhiguna.com with LMTP
+	id cXW3AIdGhGGmewAAbW9i7Q
+	(envelope-from <gilang@sandhiguna.com>)
+	for <gilang@sandhiguna.com>; Thu, 04 Nov 2021 20:45:59 +0000
+Received: from HamidyHPC (unknown [134.58.253.20])
+	by smtp.sandhiguna.com (Postfix) with ESMTPSA id 41722140A76
+	for <gilang@sandhiguna.com>; Thu,  4 Nov 2021 00:48:23 +0000 (UTC)
+From: "Microsoft Outlook" <gilang@sandhiguna.com>
+Sender: "Microsoft Outlook" <gilang@sandhiguna.com>
+To: "Gilang Hamidy" <gilang@sandhiguna.com>
+Subject: Microsoft Outlook Test Message
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0019_01D7D11E.05C79930"
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0019_01D7D11E.05C79930
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+This is an email message sent automatically by Microsoft Outlook while =
+testing the settings for your account.
+
+------=_NextPart_000_0019_01D7D11E.05C79930
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>This is an email message sent automatically by Microsoft =
+Outlook while testing the settings for your account.
+</p></body></html>
+------=_NextPart_000_0019_01D7D11E.05C79930--
+

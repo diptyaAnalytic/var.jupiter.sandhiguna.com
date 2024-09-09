@@ -1,0 +1,1 @@
+*/5  *  *  *  * /usr/bin/php --define apc.enable_cli=1 -f /var/www/space/cron.php
