@@ -1,0 +1,19 @@
+#cloud-config
+
+# from 1 files
+# cloud-config
+
+---
+disable_root: false
+manage_etc_hosts: true
+network:
+    config: disabled
+ssh_pwauth: false
+system_info:
+    default_user: null
+    distro: fedora
+    paths:
+        cloud_dir: /var/lib/cloud
+        templates_dir: /etc/cloud/templates
+    ssh_svcname: sshd
+...

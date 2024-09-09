@@ -1,0 +1,227 @@
+a:23:{s:7:"attribs";a:6:{s:15:"packagerversion";s:7:"1.10.13";s:7:"version";s:3:"2.0";s:5:"xmlns";s:35:"http://pear.php.net/dtd/package-2.0";s:11:"xmlns:tasks";s:33:"http://pear.php.net/dtd/tasks-1.0";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:18:"xsi:schemaLocation";s:147:"http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd";}s:4:"name";s:9:"memcached";s:7:"channel";s:12:"pecl.php.net";s:7:"summary";s:69:"PHP extension for interfacing with memcached via libmemcached library";s:11:"description";s:97:"This extension uses libmemcached library to provide API for communicating with memcached servers.";s:4:"lead";a:4:{i:0;a:4:{s:4:"name";s:15:"Andrei Zmievski";s:4:"user";s:6:"andrei";s:5:"email";s:14:"andrei@php.net";s:6:"active";s:3:"yes";}i:1;a:4:{s:4:"name";s:14:"Mikko Koppanen";s:4:"user";s:9:"mkoppanen";s:5:"email";s:17:"mkoppanen@php.net";s:6:"active";s:3:"yes";}i:2;a:4:{s:4:"name";s:11:"Aaron Stone";s:4:"user";s:8:"sodabrew";s:5:"email";s:20:"aaron@serendipity.cx";s:6:"active";s:3:"yes";}i:3;a:4:{s:4:"name";s:11:"Remi Collet";s:4:"user";s:4:"remi";s:5:"email";s:12:"remi@php.net";s:6:"active";s:3:"yes";}}s:4:"date";s:10:"2022-03-24";s:4:"time";s:8:"11:52:50";s:7:"version";a:2:{s:7:"release";s:5:"3.2.0";s:3:"api";s:5:"3.2.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:26:"http://www.php.net/license";}s:8:"_content";s:3:"PHP";}s:5:"notes";s:173:"- PHP 8.0 and 8.1 support
+- store_retry_count is no more set explicitly (#452)
+- fix MemcachedServer (libmemcached-awesome is recommended)
+- code cleanup
+- fix windows build";s:8:"contents";a:1:{s:3:"dir";a:2:{s:7:"attribs";a:1:{s:4:"name";s:1:"/";}s:4:"file";a:127:{i:0;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f9b7256e9d80542818b6e9f112bff122";s:4:"name";s:16:"tests/skipif.inc";s:4:"role";s:3:"src";}}i:1;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"0049a2e653da16929b460283c12c9acb";s:4:"name";s:14:"tests/001.phpt";s:4:"role";s:3:"src";}}i:2;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9f849d92256f8a554b50a33703fb1d90";s:4:"name";s:18:"tests/version.phpt";s:4:"role";s:3:"src";}}i:3;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"c17d5f95f355d86212181a2a13fefad8";s:4:"name";s:20:"tests/bug_16084.phpt";s:4:"role";s:3:"src";}}i:4;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f1106a0cee044abb3947273f60818f08";s:4:"name";s:20:"tests/bug_16959.phpt";s:4:"role";s:3:"src";}}i:5;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9ea415221918e7b7baeb7280c3f71f10";s:4:"name";s:20:"tests/bug_17137.phpt";s:4:"role";s:3:"src";}}i:6;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6ef00999b3f02f20b3de72f396a10098";s:4:"name";s:20:"tests/bug_18639.phpt";s:4:"role";s:3:"src";}}i:7;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e245add323bcc081b241a8015aa456a9";s:4:"name";s:29:"tests/callback_exception.phpt";s:4:"role";s:3:"src";}}i:8;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"0ed83d4d1b9fe309e6d538b2a9550659";s:4:"name";s:31:"tests/callback_exception_2.phpt";s:4:"role";s:3:"src";}}i:9;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"d44987c777d295db8ae308f524a71ece";s:4:"name";s:14:"tests/cas.phpt";s:4:"role";s:3:"src";}}i:10;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"ec2e05be49f3e5a9a94231a12a204003";s:4:"name";s:20:"tests/cas_multi.phpt";s:4:"role";s:3:"src";}}i:11;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"700e9c3df96ce958dea0f58ea1fef622";s:4:"name";s:30:"tests/check_if_persistent.phpt";s:4:"role";s:3:"src";}}i:12;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"c209649db8e54b0b24542d4142896a52";s:4:"name";s:28:"tests/check_if_pristine.phpt";s:4:"role";s:3:"src";}}i:13;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3a72f2f6e1cb0ac6a1c9eccc90ee490d";s:4:"name";s:20:"tests/check_key.phpt";s:4:"role";s:3:"src";}}i:14;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"d753b7841da68d7a3a9f0f14c601d0da";s:4:"name";s:16:"tests/clone.phpt";s:4:"role";s:3:"src";}}i:15;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"02b42848750f01304b8b543c9f551ab8";s:4:"name";s:33:"tests/compression_conditions.phpt";s:4:"role";s:3:"src";}}i:16;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"337a4a603ad6baef7ee8c622b0f278d6";s:4:"name";s:28:"tests/compression_types.phpt";s:4:"role";s:3:"src";}}i:17;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f108206906e74b243e4e9ca4cec5a62c";s:4:"name";s:23:"tests/conf_persist.phpt";s:4:"role";s:3:"src";}}i:18;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5f653e588dcafc00722756b35c83a539";s:4:"name";s:20:"tests/construct.phpt";s:4:"role";s:3:"src";}}i:19;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"09480798efb9358e3b86c3df93c27b1f";s:4:"name";s:31:"tests/construct_persistent.phpt";s:4:"role";s:3:"src";}}i:20;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"af3e5d769768e7593032d80625ea4f16";s:4:"name";s:18:"tests/deleted.phpt";s:4:"role";s:3:"src";}}i:21;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"57b9b9a81b00c2001f19f01f2777a143";s:4:"name";s:22:"tests/deletemulti.phpt";s:4:"role";s:3:"src";}}i:22;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"2b075f4c05006e6fe4fcf8b838928cc4";s:4:"name";s:27:"tests/deletemultitypes.phpt";s:4:"role";s:3:"src";}}i:23;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"03b1b6e388ac84f102656ae6afce9050";s:4:"name";s:17:"tests/expire.phpt";s:4:"role";s:3:"src";}}i:24;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"7a986bda034992c31c2124d1e14953f4";s:4:"name";s:24:"tests/flush_buffers.phpt";s:4:"role";s:3:"src";}}i:25;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f5b1688af8a16fb4eda76853e03940d1";s:4:"name";s:21:"tests/getdelayed.phpt";s:4:"role";s:3:"src";}}i:26;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9a71d505497b31cda6e277bfa48b3216";s:4:"name";s:24:"tests/getserverlist.phpt";s:4:"role";s:3:"src";}}i:27;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"70406e137e7589f169baecb3b57b5ac4";s:4:"name";s:16:"tests/gh_21.phpt";s:4:"role";s:3:"src";}}i:28;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"8540045ccf5d2cb090d9fec246bcefeb";s:4:"name";s:16:"tests/gh_77.phpt";s:4:"role";s:3:"src";}}i:29;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"8f7572424986a2642c3c129d815c52d8";s:4:"name";s:16:"tests/gh_90.phpt";s:4:"role";s:3:"src";}}i:30;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"534889cc99753a5630006d038302d65f";s:4:"name";s:17:"tests/gh_500.phpt";s:4:"role";s:3:"src";}}i:31;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"47ed4213b0903e162f45603cd67640d6";s:4:"name";s:26:"tests/invoke_callback.phpt";s:4:"role";s:3:"src";}}i:32;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"2ba97fc9e1196e5d70012e334fc4ede2";s:4:"name";s:28:"tests/invoke_callback_2.phpt";s:4:"role";s:3:"src";}}i:33;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"7a3baaf4c91c7bb6d908f5f480261cfc";s:4:"name";s:32:"tests/invoke_callback_twice.phpt";s:4:"role";s:3:"src";}}i:34;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e666041d8ea0fd1b7d8b1a3136b35340";s:4:"name";s:22:"tests/localserver.phpt";s:4:"role";s:3:"src";}}i:35;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5b846320e91090eb202cd4a5dc307225";s:4:"name";s:22:"tests/multi_order.phpt";s:4:"role";s:3:"src";}}i:36;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"253552a6ed8402d7fb915e11d8fa2c3c";s:4:"name";s:23:"tests/no-not-found.phpt";s:4:"role";s:3:"src";}}i:37;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"4e361af2d7b2475787a644e501ce0c54";s:4:"name";s:18:"tests/options.phpt";s:4:"role";s:3:"src";}}i:38;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"52cd927ff3e4ce93bc40c0e92a06878b";s:4:"name";s:16:"tests/pr_75.phpt";s:4:"role";s:3:"src";}}i:39;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9b182457d9aa8f5a4c0a11c9a5fd437f";s:4:"name";s:18:"tests/rescode.phpt";s:4:"role";s:3:"src";}}i:40;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f7087831c069974dea58fdcd418d0588";s:4:"name";s:38:"tests/session_badconf_emptyprefix.phpt";s:4:"role";s:3:"src";}}i:41;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"8189657125af99b4e740e52a53c4ea0e";s:4:"name";s:35:"tests/session_badconf_locktime.phpt";s:4:"role";s:3:"src";}}i:42;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"7d514549b6b1815f61e51620a66af10e";s:4:"name";s:37:"tests/session_badconf_persistent.phpt";s:4:"role";s:3:"src";}}i:43;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"28251fb9278d9371ec081a2f01c17c7e";s:4:"name";s:33:"tests/session_badconf_prefix.phpt";s:4:"role";s:3:"src";}}i:44;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6ad3bb23f6ec4966a04c10fa36c15a95";s:4:"name";s:34:"tests/session_badconf_servers.phpt";s:4:"role";s:3:"src";}}i:45;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"2c2a81d96782a1abbebf22cb14e579a0";s:4:"name";s:40:"tests/session_badconf_servers-php72.phpt";s:4:"role";s:3:"src";}}i:46;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"33f552e9f433e2c21e2d1891fd77d322";s:4:"name";s:24:"tests/session_basic.phpt";s:4:"role";s:3:"src";}}i:47;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"aa156bf7bb4462e9173317c7e6daaeac";s:4:"name";s:25:"tests/session_basic2.phpt";s:4:"role";s:3:"src";}}i:48;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"515c05e73a3d1bb4e3ed6e58d256b8c4";s:4:"name";s:25:"tests/session_basic3.phpt";s:4:"role";s:3:"src";}}i:49;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e97c28a1b11a7a513eadc4560db17780";s:4:"name";s:29:"tests/session_persistent.phpt";s:4:"role";s:3:"src";}}i:50;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"c7030c53a0a4a70db0eb9f4931b20efd";s:4:"name";s:20:"tests/set_large.phpt";s:4:"role";s:3:"src";}}i:51;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"bc001a6bdfc8535411aa509d9d40e95c";s:4:"name";s:21:"tests/setoptions.phpt";s:4:"role";s:3:"src";}}i:52;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5096ca152b3344f8dab6a2182c98ace0";s:4:"name";s:23:"tests/touch_binary.phpt";s:4:"role";s:3:"src";}}i:53;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"977a8c648fefbfdd0281146b99566046";s:4:"name";s:15:"tests/types.inc";s:4:"role";s:3:"src";}}i:54;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"2efee38de0a9ac21aa08195d2f028e66";s:4:"name";s:25:"tests/types_igbinary.phpt";s:4:"role";s:3:"src";}}i:55;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"eb026f27e4bf6341c7a113bceca0124c";s:4:"name";s:31:"tests/types_igbinary_multi.phpt";s:4:"role";s:3:"src";}}i:56;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5d979ff0b24ee9d780c4df756ae56fa6";s:4:"name";s:21:"tests/types_json.phpt";s:4:"role";s:3:"src";}}i:57;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5cb7b55c708b8400dd4a8bfbc03e6a23";s:4:"name";s:27:"tests/types_json_multi.phpt";s:4:"role";s:3:"src";}}i:58;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"fd6bc5ea8b3efacb6769a6eb532e5c13";s:4:"name";s:24:"tests/types_msgpack.phpt";s:4:"role";s:3:"src";}}i:59;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6323b069b1a61d3635e25cda05c53abd";s:4:"name";s:30:"tests/types_msgpack_multi.phpt";s:4:"role";s:3:"src";}}i:60;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"1232db5f17b5093d491c7b7fe46639b8";s:4:"name";s:20:"tests/types_php.phpt";s:4:"role";s:3:"src";}}i:61;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"7b54663feade6501bc58445be3b8cb2a";s:4:"name";s:26:"tests/types_php_multi.phpt";s:4:"role";s:3:"src";}}i:62;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6c1241dd8e53e2bda3362aafab15cf64";s:4:"name";s:24:"tests/undefined_set.phpt";s:4:"role";s:3:"src";}}i:63;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"982d771e57586dde200a54f6e1d7c205";s:4:"name";s:18:"tests/vbucket.phpt";s:4:"role";s:3:"src";}}i:64;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3e1e2916b2e20f7c8a71c101ecb9f336";s:4:"name";s:26:"tests/vbucket_error_7.phpt";s:4:"role";s:3:"src";}}i:65;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"45a942be4b684743586daaae06d8aca1";s:4:"name";s:26:"tests/vbucket_error_8.phpt";s:4:"role";s:3:"src";}}i:66;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9536d55e450f33a0d0884f41f11efb44";s:4:"name";s:21:"tests/user-flags.phpt";s:4:"role";s:3:"src";}}i:67;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"16b0c1f09268752607253cb498dbc207";s:4:"name";s:16:"tests/gh_93.phpt";s:4:"role";s:3:"src";}}i:68;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"148ba8b00686de02433ae93442219ca2";s:4:"name";s:14:"tests/add.phpt";s:4:"role";s:3:"src";}}i:69;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"54f7d4cd439dd91e1883a589fb1e3057";s:4:"name";s:24:"tests/bad_construct.phpt";s:4:"role";s:3:"src";}}i:70;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"59633289e2ca18655f33d22bd85aeb88";s:4:"name";s:26:"tests/bad_construct_8.phpt";s:4:"role";s:3:"src";}}i:71;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"81de6221c6cae1f5e96cf1cf2e4f23c2";s:4:"name";s:17:"tests/append.phpt";s:4:"role";s:3:"src";}}i:72;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"1812f8862214b7958bcdf63e2a451fda";s:4:"name";s:18:"tests/prepend.phpt";s:4:"role";s:3:"src";}}i:73;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"560425b0e9ff2e5adde5db088448dd86";s:4:"name";s:18:"tests/replace.phpt";s:4:"role";s:3:"src";}}i:74;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"bf2ce9e5237bf38806f1fff5d12c5b8f";s:4:"name";s:19:"tests/getmulti.phpt";s:4:"role";s:3:"src";}}i:75;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5eb0205bdc38f8d95d053fd693eb2de8";s:4:"name";s:19:"tests/setmulti.phpt";s:4:"role";s:3:"src";}}i:76;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e952363deea908c9078c52fdb017b36a";s:4:"name";s:24:"tests/cachecallback.phpt";s:4:"role";s:3:"src";}}i:77;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"cc9a511ff8babb7221e7b3fcd85abc9a";s:4:"name";s:19:"tests/incrdecr.phpt";s:4:"role";s:3:"src";}}i:78;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3927c7ce0fd35c4d9864edc130f84e17";s:4:"name";s:22:"tests/incrdecr_64.phpt";s:4:"role";s:3:"src";}}i:79;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5aa2ce74a2f85d46236889b06de0d44a";s:4:"name";s:27:"tests/incrdecr_initial.phpt";s:4:"role";s:3:"src";}}i:80;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"8a4542d8276de516ec4624092d4b9a46";s:4:"name";s:31:"tests/incrdecr_invalid_key.phpt";s:4:"role";s:3:"src";}}i:81;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"87a62cc497a6b660a4a01d0cbf02ba35";s:4:"name";s:25:"tests/incrdecr_bykey.phpt";s:4:"role";s:3:"src";}}i:82;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3925fe82126261b6589bd9cbf64a4568";s:4:"name";s:26:"tests/invalid_options.phpt";s:4:"role";s:3:"src";}}i:83;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3d4e8dc5099592914cbcd273efc93d6c";s:4:"name";s:21:"tests/keys_ascii.phpt";s:4:"role";s:3:"src";}}i:84;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5c51cc2837948891fb0c6e4c63a2e669";s:4:"name";s:22:"tests/keys_binary.phpt";s:4:"role";s:3:"src";}}i:85;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"a4058bd7f5993894fb867bafa57097c8";s:4:"name";s:18:"tests/testdata.res";s:4:"role";s:3:"src";}}i:86;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"cb4b22ed0a91765f3be48e66b28118c9";s:4:"name";s:16:"tests/config.inc";s:4:"role";s:3:"src";}}i:87;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6c0907cd401bc5bc51a9727d35d24493";s:4:"name";s:21:"tests/sasl_basic.phpt";s:4:"role";s:3:"src";}}i:88;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9b7cc383e10fd4189afe2e2b59f7861b";s:4:"name";s:27:"tests/set_encoding_key.phpt";s:4:"role";s:3:"src";}}i:89;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"4f68ad6b3b0ff857486f46f930e2c35f";s:4:"name";s:28:"tests/set_encoding_key2.phpt";s:4:"role";s:3:"src";}}i:90;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"1509b73bc84322e2cd07663657c53446";s:4:"name";s:25:"tests/getserverbykey.phpt";s:4:"role";s:3:"src";}}i:91;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"74f839c2b03150a023aa48e8ea135aa9";s:4:"name";s:17:"tests/gh_155.phpt";s:4:"role";s:3:"src";}}i:92;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"66749ac07b531f834903b410d002d833";s:4:"name";s:20:"tests/get_flags.phpt";s:4:"role";s:3:"src";}}i:93;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"787ab9d0298f7eb2f4353608ab711a4a";s:4:"name";s:23:"tests/session_lock.phpt";s:4:"role";s:3:"src";}}i:94;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5440e40d0b8419a9ce18bbd09f66f813";s:4:"name";s:31:"tests/session_lazy_warning.phpt";s:4:"role";s:3:"src";}}i:95;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"b0425111164f5a2980a48e5c450c91d6";s:4:"name";s:29:"tests/session_regenerate.phpt";s:4:"role";s:3:"src";}}i:96;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"6f26dd1498b785b3047db40038b74a69";s:4:"name";s:16:"tests/stats.phpt";s:4:"role";s:3:"src";}}i:97;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"31927e9f8eb8938e2b37f3de17dcada0";s:4:"name";s:21:"tests/stats_hang.phpt";s:4:"role";s:3:"src";}}i:98;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"166976cf5634f94f8ae7ba5c34ab4516";s:4:"name";s:27:"tests/default_behavior.phpt";s:4:"role";s:3:"src";}}i:99;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"582ae0198d6acff8b43accb288a97a5f";s:4:"name";s:26:"tests/reset_keyprefix.phpt";s:4:"role";s:3:"src";}}i:100;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"91401c7726d8fe32d303a472807f613c";s:4:"name";s:29:"tests/session_lock-php71.phpt";s:4:"role";s:3:"src";}}i:101;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"a4344764c217a1ebcc38c76a85e5697d";s:4:"name";s:16:"tests/server.inc";s:4:"role";s:3:"src";}}i:102;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"b03cb654128034ac234cc2132136081a";s:4:"name";s:16:"tests/server.php";s:4:"role";s:3:"src";}}i:103;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"15b9597828a5e71c904f5d63b915217b";s:4:"name";s:26:"tests/memcachedserver.phpt";s:4:"role";s:3:"src";}}i:104;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"83f16fd1ad3eb242330a599e45fb08a1";s:4:"name";s:27:"tests/memcachedserver6.phpt";s:4:"role";s:3:"src";}}i:105;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e363615c309e1ca265a16bee4b396540";s:4:"name";s:15:"README.markdown";s:4:"role";s:3:"doc";}}i:106;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"f15b54956edc11e9bf1c995385b433b4";s:4:"name";s:7:"CREDITS";s:4:"role";s:3:"doc";}}i:107;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"cb564efdf78cce8ea6e4b5a4f7c05d97";s:4:"name";s:7:"LICENSE";s:4:"role";s:3:"src";}}i:108;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"19715df9170f028156b4457cb2552050";s:4:"name";s:9:"ChangeLog";s:4:"role";s:3:"doc";}}i:109;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"aa4e3e907461b5ddb6dcd3a133dc393a";s:4:"name";s:17:"memcached-api.php";s:4:"role";s:3:"doc";}}i:110;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"cde6e7130e5b0b245dd396b1bfdd63dd";s:4:"name";s:13:"memcached.ini";s:4:"role";s:3:"doc";}}i:111;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"0f4f06353dc6831885e311b38d546a86";s:4:"name";s:9:"config.m4";s:4:"role";s:3:"src";}}i:112;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"99852c597ceafb5429057b1e17bf7826";s:4:"name";s:10:"config.w32";s:4:"role";s:3:"src";}}i:113;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"dbdaadc461126eaa9e69db72337d8afa";s:4:"name";s:15:"php_memcached.c";s:4:"role";s:3:"src";}}i:114;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"0ff5c00ae1778b997a25bdfd572895d9";s:4:"name";s:15:"php_memcached.h";s:4:"role";s:3:"src";}}i:115;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"dda2cf88fd462f452940e95f06609e78";s:4:"name";s:22:"php_memcached.stub.php";s:4:"role";s:3:"src";}}i:116;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"760d9041d472520c09a6bcd4ce9ffab9";s:4:"name";s:23:"php_memcached_arginfo.h";s:4:"role";s:3:"src";}}i:117;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"b03c1b12fdac77821097e2b7e3f11be1";s:4:"name";s:30:"php_memcached_legacy_arginfo.h";s:4:"role";s:3:"src";}}i:118;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"ab8183a753b3291c30adf11872507652";s:4:"name";s:23:"php_memcached_private.h";s:4:"role";s:3:"src";}}i:119;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"b1ecb6f476a9394e896f4a00db4a18d7";s:4:"name";s:23:"php_memcached_session.c";s:4:"role";s:3:"src";}}i:120;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"3c47c0ddad806318e44c4a0307179532";s:4:"name";s:23:"php_memcached_session.h";s:4:"role";s:3:"src";}}i:121;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"fdfd0d785240591e81437a91e5c341e3";s:4:"name";s:25:"php_libmemcached_compat.h";s:4:"role";s:3:"src";}}i:122;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"a37d5b1a87a3090cc5809f5922d90c23";s:4:"name";s:25:"php_libmemcached_compat.c";s:4:"role";s:3:"src";}}i:123;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"ca6c85249adc0edb67d8da8a43e52149";s:4:"name";s:22:"php_memcached_server.h";s:4:"role";s:3:"src";}}i:124;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"c405b09c8b4fb4d54f991c9108ec5acf";s:4:"name";s:22:"php_memcached_server.c";s:4:"role";s:3:"src";}}i:125;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9aeffa26d0908db89a3703f718c9375e";s:4:"name";s:7:"g_fmt.c";s:4:"role";s:3:"src";}}i:126;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"94fb8525d4419947cec4653a302be41a";s:4:"name";s:7:"g_fmt.h";s:4:"role";s:3:"src";}}}}}s:12:"dependencies";a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:5:"7.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}s:8:"optional";a:1:{s:9:"extension";a:2:{i:0;a:2:{s:4:"name";s:8:"igbinary";s:3:"min";s:3:"2.0";}i:1;a:2:{s:4:"name";s:7:"msgpack";s:3:"min";s:3:"2.0";}}}}s:17:"providesextension";s:9:"memcached";s:13:"extsrcrelease";a:1:{s:15:"configureoption";a:9:{i:0;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:21:"with-libmemcached-dir";s:6:"prompt";s:22:"libmemcached directory";}}i:1;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:13:"with-zlib-dir";s:6:"prompt";s:14:"zlib directory";}}i:2;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:18:"with-system-fastlz";s:6:"prompt";s:17:"use system fastlz";}}i:3;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:25:"enable-memcached-igbinary";s:6:"prompt";s:26:"enable igbinary serializer";}}i:4;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:24:"enable-memcached-msgpack";s:6:"prompt";s:25:"enable msgpack serializer";}}i:5;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:21:"enable-memcached-json";s:6:"prompt";s:22:"enable json serializer";}}i:6;a:1:{s:7:"attribs";a:3:{s:7:"default";s:2:"no";s:4:"name";s:25:"enable-memcached-protocol";s:6:"prompt";s:22:"enable server protocol";}}i:7;a:1:{s:7:"attribs";a:3:{s:7:"default";s:3:"yes";s:4:"name";s:21:"enable-memcached-sasl";s:6:"prompt";s:11:"enable sasl";}}i:8;a:1:{s:7:"attribs";a:3:{s:7:"default";s:3:"yes";s:4:"name";s:24:"enable-memcached-session";s:6:"prompt";s:15:"enable sessions";}}}}s:9:"changelog";a:1:{s:7:"release";a:30:{i:0;a:5:{s:4:"date";s:10:"2019-12-03";s:7:"version";a:2:{s:7:"release";s:5:"3.1.5";s:3:"api";s:5:"3.0.0";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:26:"http://www.php.net/license";}s:8:"_content";s:3:"PHP";}s:5:"notes";s:321:"PHP 7.0 - 7.1 - 7.2 - 7.3 - 7.4 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Fix build with PHP 7.4 release due to ulong typedef removal (#445)";}i:1;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.1.4";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2019-10-06";s:5:"notes";s:486:"PHP 7.0 - 7.1 - 7.2 - 7.3 - 7.4 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+  * Test on PHP 7.4 as well as 8.0 (#440)
+  * Fix segfault for unknown memcached flags (#431)
+  * Update documented defaults for sess_lock_retries (#432)
+  * Remove stray instances of the TSRMLS_CC macro for PHP 8 compatibility (#444)";}i:2;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.1.3";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2018-12-22";s:5:"notes";s:337:"PHP 7.0 - 7.1 - 7.2 - 7.3 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+  * Fix --disable-memcached-session by ifdef-ing session INI handler callbacks (#396, #420)";}i:3;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.1.2";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2018-12-22";s:5:"notes";s:330:"PHP 7.0 - 7.1 - 7.2 - 7.3 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+  * Fix --enable-memcached-protocol was set to yes by default, reverted to no (#418)";}i:4;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.1.1";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2018-12-21";s:5:"notes";s:347:"PHP 7.0 - 7.1 - 7.2 - 7.3 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+  * Fix --disable-memcached-sasl and --disable-memcached-session replaced by --enable variants (#416)";}i:5;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.1.0";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2018-12-21";s:5:"notes";s:1393:"PHP 7.0 - 7.1 - 7.2 - 7.3 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.8. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+New
+  * Support for PHP 7.3 (#385, #390)
+  * Add INI setting to choose session consistent hash (ketama or ketama_weighted) (#344, #392)
+  * Add support for libmemcached encryption (#345, #381)
+  * Add error reporting to session code (#165)
+  * Expose build configuration via PECL (#383)
+
+Fixes
+  * Fix hanging getStats() when binary protocol and non-blocking are both enabled (#348)
+  * Fix session persistence by checking memcached behavior values before setting (#379)
+  * Fix memcached.sess_persistent not working with memcached.sess_binary_protocol = On (#375)
+  * Configure warns if libmemcached needs sasl.h (#341, #380)
+  * Resolve various INI deviations in 3.0.3 (#351)
+  * Turn off sess_binary_protocol by default with older libmemcached (#330)
+
+Changes
+  * Impove Windows builds (#411)
+  * Support Homebrew ZLIB path (#410)
+  * Remove forgotten unused comment about -lpthread (#406)
+  * Git ignore configure.ac (#405)
+  * Replace obsolete macros AC_TRY_FOO with AC_FOO_IFELSE (#403)
+  * Remove unused defines (#354)
+  * Change session_lock and sess_prefix default ini values (#340, #350)
+  * Use new fast_zpp parameter parsing API (#302, #311)";}i:6;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.0.4";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2017-11-20";s:5:"notes";s:631:"PHP 7.0 - 7.1 - 7.2 release of memcached extension. Note that support for
+libmemcached 0.x series has been discontinued and the oldest actively tested
+version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Fix corrupted interned strings (#338)
+ * Fix unit tests for compatibility with PHP 7.2 (#358, #359)
+ * Fix \x0a in key name locks up connection and triggers a fatal timeout error (#339)
+ * Fix missing optional parameter getStats($type) (#337)
+ * Fix typo in skip message (#331)
+ * Fix build warnings (#329)
+ * Document GET_EXTENDED flag, add/rename other missing/misnamed constants (#335)";}i:7;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.0.3";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2017-02-19";s:5:"notes";s:379:"PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Fix crash when checking session data with older versions of libmemcached (#328)
+ * Fix crash due to zend_mm_corrupted when fetching session data (#327)";}i:8;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.0.2";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2016-02-12";s:5:"notes";s:484:"PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Update warning for touch command in binary protocol mode with libmemcached below 1.0.18 (#322)
+ * Add tests for 64-bit increment/decrement/incrementByKey/decrementByKey (#321)
+ * Fix tests for 32-bit increment/decrement/incrementByKey/decrementByKey (#319)";}i:9;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.0.1";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2016-02-07";s:5:"notes";s:604:"PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+Fixes
+ * Add API entries for flushBuffers() and getAllKeys() (#316)
+ * Ignore specific errors from memcached_dump for getAllKeys() with newer memcached servers (#315)
+ * Fix compiling with memcached binary protocol enabled (#312)
+ * Restore php_libmemcached_compat with workaround for missing memcached_exists (#314)
+ * Travis CI purge old versions of memcached and libmemcached (#309)";}i:10;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"3.0.0";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2016-01-27";s:5:"notes";s:1493:"PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached.
+
+API
+ * The method signature of get, getByKey, getMulti, and getMultiByKey changed.
+ * get* and getMulti* commands no longer take cas or user flags parameters.
+ * get* and getMulti* commands now take the Memcached::GET_EXTENDED flag to retrieve user flags and cas tokens.
+ * Fixes getStats command to return all stats from all servers
+ * Fixes allKeys command behaviour
+ * Fixes error where cache callback for get command was not setting expiration time properly
+ * Added server type to server list
+ * Remove use_sasl ini-variable and initialise sasl as needed
+ * CAS tokens are returned as integers and they overflow to strings as needed
+
+Session handler
+ * The session memcached protocol config name was changed, and the default protocol was changed from text to binary protocol. If your memcached setup does not support the binary protocol(e.g. if using tw
+ * Session lock algorithm updated (new ini-values memcached.sess_lock_wait_min, memcached.sess_lock_wait_max and memcached.sess_lock_retries)
+ * Session extension uses PHP allocators (still some work to do on the rest of the extension)
+ * Ini-values take effect during session_start or session_regenerate_id
+ * Fixes crash with session_regenerate_id (work-around for PHP bug)
+
+Tests
+ * Fix several problematic tests";}i:11;a:4:{s:9:"stability";a:2:{s:7:"release";s:5:"alpha";s:3:"api";s:5:"alpha";}s:7:"version";a:2:{s:7:"release";s:7:"3.0.0a1";s:3:"api";s:5:"3.0.0";}s:4:"date";s:10:"2016-02-22";s:5:"notes";s:1325:"PHP7 release of memcached extension. Note that support for libmemcached 0.x series has been discontinued
+and the oldest actively tested version is 1.0.2. It is highly recommended to use version 1.0.18 of
+libmemcached. Please note that this is a beta release and reporting any issues would be highly appreciated
+before we move closer to releasing stable version.
+
+API
+ * get commands do not take cas or user flags parameters.
+ * get and getMulti commands take Memcached::GET_EXTENDED flag to retrieve user flags and cas tokens
+ * Fixes getStats command to return all stats from all servers
+ * Fixes allKeys command behaviour
+ * Fixes error where cache callback for get command was not setting expiration time properly
+ * Added server type to server list
+ * Remove use_sasl ini-variable and initialise sasl as needed
+ * CAS tokens are returned as integers and they overflow to strings as needed
+
+Session handler
+ * Session lock algorithm updated (new ini-values memcached.sess_lock_wait_min, memcached.sess_lock_wait_max and memcached.sess_lock_retries)
+ * Session extension uses PHP allocators (still some work to do on the rest of the extension)
+ * Ini-values take effect during session_start or session_regenerate_id
+ * Fixes crash with session_regenerate_id (work-around for PHP bug)
+
+Tests
+ * Fix several problematic tests";}i:12;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.2.0";s:3:"api";s:5:"2.2.0";}s:4:"date";s:10:"2014-04-01";s:5:"notes";s:46:"- Added the OPT_SERVER_TIMEOUT_LIMIT behaviour";}i:13;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:8:"2.2.0RC1";s:3:"api";s:5:"2.2.0";}s:4:"date";s:10:"2014-03-12";s:5:"notes";s:97:"- Fixes incorrect size when compressing serialized objects
+- Fixes endianess of compressed values";}i:14;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:7:"2.2.0b1";s:3:"api";s:5:"2.2.0";}s:4:"date";s:10:"2013-10-28";s:5:"notes";s:387:"- Reinstate support for libememcached 0.x series
+- Added SASL support to session handler
+- Added Memcached::flushBuffers as per GH #78
+- Fixes GH #54: Fixed UDP server adding with newer libmemcached
+- Fixed PHP bug #65334: (Segfault if uncompress value failed)
+- Fixes GH #14: get with cas token fails to fetch all results
+- Fixes GH #69: compiling on CentOS 6.4 with libmemcached 1.0.17";}i:15;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.1.0";s:3:"api";s:5:"2.1.0";}s:4:"date";s:10:"2012-08-06";s:5:"notes";s:145:"- Drop support for libmemcached 0.x series, now 1.0.x is required
+- Add support for virtual bucket distribution
+- Fix compilation against PHP 5.2";}i:16;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.0.1";s:3:"api";s:5:"2.0.1";}s:4:"date";s:10:"2012-03-03";s:5:"notes";s:44:"- Fix embedded version number to be not -dev";}i:17;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.0.0";s:3:"api";s:5:"2.0.0";}s:4:"date";s:10:"2012-03-02";s:5:"notes";s:189:"- Add touch() and touchByKey() methods
+- Add resetServerList() and quit() methods
+- Support binary protocol in sessions
+- Make it work with libmemcached up to 1.0.4
+- Test against PHP 5.4.0";}i:18;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:7:"2.0.0b2";s:3:"api";s:7:"2.0.0b2";}s:4:"date";s:10:"2011-06-24";s:5:"notes";s:896:"- Add OPT_REMOVE_FAILED_SERVERS option.
+- Make it work with libmemcached up to 0.49.
+- Fix a case where invalid session ID could lock the script.
+- Improve session support:
+    * Add support for libmemcached config string
+    * Add persistence support via PERSISTENT=persistent_id prefix
+      of the save_path
+- Add 3rd parameter to the __construct() that allows specification
+  of libmemcached configuration string
+- Fix a possible crash in __construct() when using persistent
+  connections
+- Add work-around a bug in libmemcached < 0.50 that causes truncation
+  of last character of server key prefix
+- When using multiple servers implement transparent fail-over
+- Fix php_memc_cas_impl() implementation when server_key is not being used
+- Add support for incrementByKey() and decrementByKey()
+- Make increment/decrement initialize value when it is not available (when
+  using binary protocol)";}i:19;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:7:"2.0.0b1";s:3:"api";s:7:"2.0.0b1";}s:4:"date";s:10:"2011-03-12";s:5:"notes";s:988:"- Change the return value for non-existing keys to be NULL rather than
+  'false', affects simple get only
+- Add fastlz library that provides better/faster payload compression
+- Add configure switch to enable/disable JSON serialization support
+- Add getAllKeys() method
+- Add deleteMulti() and deleteMultiByKey() methods
+- Add isPristine() and isPersistent() methods
+- Add setOptions() method to set multiple options at once
+- Add SERIALIZER_JSON_ARRAY type that decodes JSON payloads as arrays
+  instead of objects
+- Add support for Unix domain socket connections
+- Add memcached.compression_threshold INI setting
+- Add memcached.compression_factor INI setting
+- Add memcached.compression_type INI setting
+- Implement a few speed optimizations
+- Many bug fixes and memory leaks plugged
+- Add several more tests
+- Add constants for libmemcached 0.37+:
+  * Memcached::OPT_NUMBER_OF_REPLICAS
+  * Memcached::OPT_RANDOMIZE_REPLICA_READ
+- Add 'on_new' callback to constructor
+- Add SASL support";}i:20;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"1.0.2";s:3:"api";s:5:"1.0.2";}s:4:"date";s:10:"2010-05-03";s:5:"notes";s:65:"- Fix build for libmemcached-0.39 (memcached_server_list() issue)";}i:21;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"1.0.1";s:3:"api";s:5:"1.0.1";}s:4:"date";s:10:"2010-03-11";s:5:"notes";s:34:"- Fix build for libmemcached-0.38.";}i:22;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"1.0.0";s:3:"api";s:5:"1.0.0";}s:4:"date";s:10:"2009-07-04";s:5:"notes";s:207:"- First stable release.
+- Add getResultMessage() method.
+- Fix OPT_RECV_TIMEOUT definition.
+- Initialize Session lock wait to max execution time (if max execution
+  time is unlimited, default to 30 seconds).";}i:23;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.2.0";s:3:"api";s:5:"0.2.0";}s:4:"date";s:10:"2009-06-04";s:5:"notes";s:680:"- Refactor the way payload types are stored in memcached flags to optimize the structure
+  and allow for future expansion. WARNING! You have to flush the cache when upgrading from
+  an older version.
+- Add JSON serializer support, requires PHP 5.2.10+.
+- Add HAVE_JSON and HAVE_IGBINARY class constants that indicate whether the respective
+  serializers are available.
+- Add 'flags' parameter to getMulti() and getMultiByKey().
+- Add GET_PRESERVE_ORDER class constant that can be used with abovementioned flags
+  parameter to make the order of the keys in the response match the request.
+- Fix an issue with retrieving 0-length payloads (FALSE boolean value).
+- Add several tests.";}i:24;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.5";s:3:"api";s:5:"0.1.5";}s:4:"date";s:10:"2009-03-31";s:5:"notes";s:234:"- Implement getVersion().
+- Add support for preserving boolean value types.
+- Fix crash when child class does not call constructor.
+- Fix bug #16084 (Crash when addServers is called with an associative array).
+- ZTS compilation fixes.";}i:25;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.4";s:3:"api";s:5:"0.1.4";}s:4:"date";s:10:"2009-02-13";s:5:"notes";s:89:"- Fix compilation against PHP 5.3.
+- Add support for 'igbinary' serializer (Oleg Grenrus)";}i:26;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.3";s:3:"api";s:5:"0.1.3";}s:4:"date";s:10:"2009-02-06";s:5:"notes";s:65:"- Bludgeon bug #15896 (Memcached setMulti error) into submission.";}i:27;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.2";s:3:"api";s:5:"0.1.2";}s:4:"date";s:10:"2009-02-06";s:5:"notes";s:345:"- Fix bug #15896 (Memcached setMulti error).
+- Check for empty key in getServerByKey().
+- Allow passing 'null' for callbacks.
+- get() with cas token fetching wasn't erroring out properly.
+- Rename certain parameters in the API to be more clear.
+- Allow only strings as the append/prepend value.
+- Remove expiration parameter from append/prepend.";}i:28;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.1";s:3:"api";s:5:"0.1.1";}s:4:"date";s:10:"2009-02-02";s:5:"notes";s:156:"- Add OPT_LIBKETAMA_COMPATIBLE option.
+- Implement addServers() method.
+- Swap internal compressed and serialized flags to be compatible with other clients.";}i:29;a:4:{s:9:"stability";a:2:{s:7:"release";s:4:"beta";s:3:"api";s:4:"beta";}s:7:"version";a:2:{s:7:"release";s:5:"0.1.0";s:3:"api";s:5:"0.1.0";}s:4:"date";s:10:"2009-01-29";s:5:"notes";s:22:"- Initial PECL release";}}}s:8:"filelist";a:5:{s:15:"README.markdown";a:4:{s:6:"md5sum";s:32:"e363615c309e1ca265a16bee4b396540";s:4:"name";s:15:"README.markdown";s:4:"role";s:3:"doc";s:12:"installed_as";s:45:"/usr/share/doc/pecl/memcached/README.markdown";}s:7:"CREDITS";a:4:{s:6:"md5sum";s:32:"f15b54956edc11e9bf1c995385b433b4";s:4:"name";s:7:"CREDITS";s:4:"role";s:3:"doc";s:12:"installed_as";s:37:"/usr/share/doc/pecl/memcached/CREDITS";}s:9:"ChangeLog";a:4:{s:6:"md5sum";s:32:"19715df9170f028156b4457cb2552050";s:4:"name";s:9:"ChangeLog";s:4:"role";s:3:"doc";s:12:"installed_as";s:39:"/usr/share/doc/pecl/memcached/ChangeLog";}s:17:"memcached-api.php";a:4:{s:6:"md5sum";s:32:"aa4e3e907461b5ddb6dcd3a133dc393a";s:4:"name";s:17:"memcached-api.php";s:4:"role";s:3:"doc";s:12:"installed_as";s:47:"/usr/share/doc/pecl/memcached/memcached-api.php";}s:13:"memcached.ini";a:4:{s:6:"md5sum";s:32:"cde6e7130e5b0b245dd396b1bfdd63dd";s:4:"name";s:13:"memcached.ini";s:4:"role";s:3:"doc";s:12:"installed_as";s:43:"/usr/share/doc/pecl/memcached/memcached.ini";}}s:12:"_lastversion";N;s:7:"dirtree";a:1:{s:29:"/usr/share/doc/pecl/memcached";b:1;}s:3:"old";a:7:{s:7:"version";s:5:"3.2.0";s:12:"release_date";s:10:"2022-03-24";s:13:"release_state";s:6:"stable";s:15:"release_license";s:3:"PHP";s:13:"release_notes";s:173:"- PHP 8.0 and 8.1 support
+- store_retry_count is no more set explicitly (#452)
+- fix MemcachedServer (libmemcached-awesome is recommended)
+- code cleanup
+- fix windows build";s:12:"release_deps";a:4:{i:0;a:4:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"7.0.0";s:8:"optional";s:2:"no";}i:1;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:4:"PEAR";s:3:"rel";s:2:"ge";s:7:"version";s:7:"1.4.0b1";s:8:"optional";s:2:"no";}i:2;a:5:{s:4:"type";s:3:"ext";s:4:"name";s:8:"igbinary";s:3:"rel";s:2:"ge";s:7:"version";s:3:"2.0";s:8:"optional";s:3:"yes";}i:3;a:5:{s:4:"type";s:3:"ext";s:4:"name";s:7:"msgpack";s:3:"rel";s:2:"ge";s:7:"version";s:3:"2.0";s:8:"optional";s:3:"yes";}}s:11:"maintainers";a:4:{i:0;a:5:{s:4:"name";s:15:"Andrei Zmievski";s:5:"email";s:14:"andrei@php.net";s:6:"active";s:3:"yes";s:6:"handle";s:6:"andrei";s:4:"role";s:4:"lead";}i:1;a:5:{s:4:"name";s:14:"Mikko Koppanen";s:5:"email";s:17:"mkoppanen@php.net";s:6:"active";s:3:"yes";s:6:"handle";s:9:"mkoppanen";s:4:"role";s:4:"lead";}i:2;a:5:{s:4:"name";s:11:"Aaron Stone";s:5:"email";s:20:"aaron@serendipity.cx";s:6:"active";s:3:"yes";s:6:"handle";s:8:"sodabrew";s:4:"role";s:4:"lead";}i:3;a:5:{s:4:"name";s:11:"Remi Collet";s:5:"email";s:12:"remi@php.net";s:6:"active";s:3:"yes";s:6:"handle";s:4:"remi";s:4:"role";s:4:"lead";}}}s:10:"xsdversion";s:3:"2.0";s:13:"_lastmodified";i:1661388075;}

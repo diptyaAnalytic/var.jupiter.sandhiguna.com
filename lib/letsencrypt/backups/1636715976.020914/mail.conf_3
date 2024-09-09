@@ -1,0 +1,45 @@
+server {
+	listen 80;
+        listen [::]:80;
+
+	server_name smtp.sandhiguna.com imap.sandhiguna.com;
+	return 301 http://mail.sandhiguna.com$request_uri;
+}
+
+server {
+	listen 80;
+	listen [::]:80;
+
+	server_name mail.sandhiguna.com;
+	access_log /var/log/www/mail.sandhiguna.com.log;
+        error_log  /var/log/www/mail.sandhiguna.com.log;
+
+	root /var/www/roundcubemail;
+	index index.php;
+
+	location / {
+                try_files $uri $uri/ /index.php?q=$uri&$args;
+        }
+
+        location ~ ^/(README.md|INSTALL|LICENSE|CHANGELOG|UPGRADING)$ {
+                deny all;
+        }
+
+        location ~ ^/(config|temp|logs)/ {
+                deny all;
+        }
+
+        location ~ /\. {
+                deny all;
+                access_log off;
+                log_not_found off;
+        }
+
+        location ~ \.php$ {
+                try_files $uri =404;
+                fastcgi_pass unix:/var/run/php-fpm/www-roundcube.sock;
+                fastcgi_index index.php;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include fastcgi_params;
+        }
+}

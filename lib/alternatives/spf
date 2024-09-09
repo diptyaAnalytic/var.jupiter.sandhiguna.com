@@ -1,0 +1,11 @@
+auto
+/usr/bin/spfquery
+spf-daemon
+/usr/bin/spfd
+spfquery-man-page
+/usr/share/man/man1/spfquery.1.gz
+
+/usr/bin/spfquery.perl-Mail-SPF
+10
+/usr/bin/spfd.perl-Mail-SPF
+/usr/share/man/man1/spfquery-perl-Mail-SPF.1.gz

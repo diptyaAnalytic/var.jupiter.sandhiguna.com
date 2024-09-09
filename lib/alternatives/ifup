@@ -1,0 +1,8 @@
+auto
+/usr/sbin/ifup
+ifdown
+/usr/sbin/ifdown
+
+/usr/libexec/nm-ifup
+50
+/usr/libexec/nm-ifdown

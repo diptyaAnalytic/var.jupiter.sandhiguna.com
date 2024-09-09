@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink version="3.0" xmlns="http://www.metalinker.org/" type="dynamic" pubdate="Mon, 01 Nov 2021 09:00:02 GMT" generator="mirrormanager" xmlns:mm0="http://fedorahosted.org/mirrormanager">
+ <files>
+  <file name="repomd.xml">
+   <mm0:timestamp>1635450672</mm0:timestamp>
+   <size>4977</size>
+   <verification>
+    <hash type="md5">4bb8d0ea8e7c345246304ea16841c0ad</hash>
+    <hash type="sha1">a861e60a2b7471ca86359be2b448e48337e167ba</hash>
+    <hash type="sha256">201aec9c470249e99cd44b1f40644b26a2aafeae76025bd26ac2c43e601d0c41</hash>
+    <hash type="sha512">3dee266d8089d10fa8ac7852332cfb779bf2844f30a18510f58be7f83afa8cc00f2e98a4f51d0f2916e159d6233868d33e8e03372016f477a58282d68868071e</hash>
+   </verification>
+   <resources maxconnections="1">
+    <url protocol="https" type="https" location="SG" preference="100">https://download.nus.edu.sg/mirror/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="SG" preference="100">http://download.nus.edu.sg/mirror/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="SG" preference="100">rsync://download.nus.edu.sg/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="99">http://ftp.riken.jp/Linux/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="99">rsync://ftp.riken.jp/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="ID" preference="98">rsync://fedora.mirror.angkasa.id/fedora-enchilada/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="ID" preference="98">http://fedora.mirror.angkasa.id/pub/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="97">https://mirrors.ustc.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="97">http://mirrors.ustc.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="97">rsync://rsync.mirrors.ustc.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="96">http://ftp.jaist.ac.jp/pub/Linux/Fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="96">rsync://ftp.jaist.ac.jp/pub/Linux/Fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="95">rsync://mirrors.bfsu.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="95">http://mirrors.bfsu.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="JP" preference="94">http://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="JP" preference="94">rsync://ftp.iij.ad.jp/pub/linux/Fedora/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="93">http://mirrors.nju.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="93">https://mirrors.nju.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="93">rsync://mirrors.nju.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="92">https://mirrors.tuna.tsinghua.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="92">http://mirrors.tuna.tsinghua.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="92">rsync://mirrors.tuna.tsinghua.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="BD" preference="91">http://mirror.xeonbd.com/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="TH" preference="90">http://mirror2.totbb.net/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="TH" preference="90">rsync://mirror2.totbb.net/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="KZ" preference="89">https://mirror.hoster.kz/fedora/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="KZ" preference="89">rsync://mirror.hoster.kz/fedora-enchilada/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="KZ" preference="89">http://mirror.hoster.kz/fedora/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="88">http://mirrors.163.com/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="88">rsync://mirrors.163.com/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="rsync" type="rsync" location="CN" preference="87">rsync://mirror.sjtu.edu.cn/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="87">https://mirror.sjtu.edu.cn/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="MY" preference="86">http://fedora.ipserverone.com/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="MY" preference="86">https://fedora.ipserverone.com/fedora/linux//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="http" type="http" location="CN" preference="85">http://mirror.lzu.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+    <url protocol="https" type="https" location="CN" preference="85">https://mirror.lzu.edu.cn/fedora//updates/34/Modular/x86_64/repodata/repomd.xml</url>
+   </resources>
+  </file>
+ </files>
+</metalink>

@@ -1,0 +1,4 @@
+-- Deployed ACME Certificate --
+Changed vhost at /etc/nginx/conf.d/space.conf with addresses of 443 ssl, [::]:443 ssl
+	ssl_certificate /etc/letsencrypt/live/space.sandhiguna.com/fullchain.pem
+	ssl_certificate_key /etc/letsencrypt/live/space.sandhiguna.com/privkey.pem

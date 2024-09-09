@@ -1,0 +1,8 @@
+manual
+/usr/bin/soelim
+soelim.1.gz
+/usr/share/man/man1/soelim.1.gz
+
+/usr/bin/soelim.groff
+300
+/usr/share/man/man1/soelim.groff.1.gz

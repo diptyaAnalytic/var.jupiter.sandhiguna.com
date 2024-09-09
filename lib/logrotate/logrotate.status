@@ -1,0 +1,23 @@
+logrotate state -- version 2
+"/var/log/nginx/error.log" 2024-9-9-0:0:1
+"/var/log/sssd/sssd_implicit_files.log" 2021-11-14-0:0:2
+"/var/log/firewalld" 2021-11-8-0:0:0
+"/var/log/sa-update.log" 2024-9-1-0:0:1
+"/var/log/sssd/sssd_nss.log" 2021-11-14-0:0:2
+"/var/log/hawkey.log" 2024-9-8-0:0:2
+"/var/log/redis/redis.log" 2024-9-8-0:0:2
+"/var/log/httpd/*log" 2023-11-12-0:0:0
+"/var/log/chrony/*.log" 2023-11-12-0:0:0
+"/var/log/wtmp" 2021-11-8-0:0:0
+"/var/log/sssd/sssd.log" 2021-11-14-0:0:2
+"/var/log/spooler" 2024-9-8-0:0:2
+"/var/log/btmp" 2024-9-1-0:0:1
+"/var/log/maillog" 2024-9-8-0:0:2
+"/var/log/php-fpm/error.log" 2024-9-8-0:0:2
+"/var/log/sssd/sssd_kcm.log" 2024-6-4-0:0:1
+"/var/log/mariadb/mariadb.log" 2024-7-7-0:0:1
+"/var/log/secure" 2024-9-8-0:0:2
+"/var/log/nginx/access.log" 2024-9-9-0:0:1
+"/var/log/messages" 2024-9-8-0:0:2
+"/var/log/samba/log.*" 2023-11-17-0:0:0
+"/var/log/cron" 2024-9-8-0:0:2

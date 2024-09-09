@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# This is a wrapper that ensures that the agent is only installed _once_ automatically
+# via cloud-init. Cloud-init 0.7.8 and earlier re-execute included URL's each boot.
+# This script ensures that the agent is only ever installed once.
+
+i_file="https://insights.nyc3.cdn.digitaloceanspaces.com/install.sh"
+s_path="/var/lib/cloud/instance/sem"
+s_file="${s_path}/do_agent"
+
+mkdir -p ${s_path}
+
+test -f ${s_file} && exit 0
+
+logger -t DigitalOcean-Agent "fetching and installing DigitalOcean monitoring agent"
+
+wget --quiet -O ${s_file} ${i_file} ||
+    curl -sSL --output ${s_file} ${i_file}
+
+chmod 0755 ${s_file}
+
+if test -x ${s_file}; then
+    exec ${s_file} || logger -t DigitalOcean-Agent "failed to install DigitalOcean monitoring agent"
+fi

@@ -1,0 +1,1599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps
+  PUBLIC '-//Red Hat, Inc.//DTD Comps info//EN'
+  'comps.dtd'>
+<comps>
+  <environment>
+    <id>basic-desktop-environment</id>
+    <name>Basic Desktop</name>
+    <name xml:lang="af">Basiese werkskerm</name>
+    <name xml:lang="bg">Основен работен плот</name>
+    <name xml:lang="ca">Escriptori bàsic</name>
+    <name xml:lang="cs">Základní desktop</name>
+    <name xml:lang="da">Grundlæggende skrivebord</name>
+    <name xml:lang="de">Grundsystem</name>
+    <name xml:lang="en_GB">Basic Desktop</name>
+    <name xml:lang="es">Escritorio Básico</name>
+    <name xml:lang="fi">Tavallinen työpöytä</name>
+    <name xml:lang="fr">Environnement de bureau standard</name>
+    <name xml:lang="fur">Scritori di Base</name>
+    <name xml:lang="he">שולחן עבודה בסיסי</name>
+    <name xml:lang="hu">Alapvető asztali környezet</name>
+    <name xml:lang="ia">Scriptorio basic</name>
+    <name xml:lang="id">Desktop Dasar</name>
+    <name xml:lang="it">Desktop base</name>
+    <name xml:lang="ja">基本的なデスクトップ環境</name>
+    <name xml:lang="ko">기본 데스크탑</name>
+    <name xml:lang="nb">Enkelt skrivebord</name>
+    <name xml:lang="nl">Basisbureaublad</name>
+    <name xml:lang="pa">ਮੁੱਢਲਾ ਡੈਸਕਟਾਪ</name>
+    <name xml:lang="pl">Podstawowe środowisko</name>
+    <name xml:lang="pt">Área de Trabalho Básica</name>
+    <name xml:lang="pt_BR">Ambiente Básico</name>
+    <name xml:lang="ru">Базовая среда рабочего стола</name>
+    <name xml:lang="sk">Základné pracovné prostredie</name>
+    <name xml:lang="sq">Desktop Bazik</name>
+    <name xml:lang="sr">Основно окружење</name>
+    <name xml:lang="sv">Grundläggande skrivbord</name>
+    <name xml:lang="tr">Temel Masaüstü</name>
+    <name xml:lang="uk">Базове робоче середовище</name>
+    <name xml:lang="zh_CN">基本桌面环境</name>
+    <name xml:lang="zh_TW">基本桌面</name>
+    <description>X Window System with a choice of window manager.</description>
+    <description xml:lang="af">X Window-stelsel met ’n keuse van vensterbestuurder.</description>
+    <description xml:lang="bg">X Window система с избор на мениджър на прозорци.</description>
+    <description xml:lang="ca">X Window System amb la selecció del gestor de finestres.</description>
+    <description xml:lang="cs">Systém X Window s výběrem správce oken.</description>
+    <description xml:lang="da">X-vinduessystem med valg af vindueshåndtering.</description>
+    <description xml:lang="de">X-Fenstersystem mit einer Auswahl an Fensterverwaltungen</description>
+    <description xml:lang="en_GB">X Window System with a choice of window manager.</description>
+    <description xml:lang="es">Sistema X Window con una elección de gestor de ventana.</description>
+    <description xml:lang="fi">X-ikkunointijärjestelmä ja ikkunanhallintaohjelman valinta.</description>
+    <description xml:lang="fr">Système de fenêtre X avec un choix de gestionnaire de fenêtres.</description>
+    <description xml:lang="hu">X Window System választott ablakkezelővel.</description>
+    <description xml:lang="ia">Le systema X Window con alternativas de gerentes de fenestras.</description>
+    <description xml:lang="it">Sistema X Window con scelta di gestori finestre</description>
+    <description xml:lang="ja">X Window System と任意のウィンドウマネージャー</description>
+    <description xml:lang="ko">창 관리자의 선택을 위한 X 윈도우 시스템.</description>
+    <description xml:lang="nb">X-vindussystem med valg av vindusbehandler.</description>
+    <description xml:lang="nl">X Window Systeem met een keuze uit een aantal vensterbeheerders.</description>
+    <description xml:lang="pl">System X Window z wyborem menedżerów okien.</description>
+    <description xml:lang="pt">Sistema de janelas X com a escolha de gestor de janelas.</description>
+    <description xml:lang="pt_BR">Sistema X Window com a escolha de um gerenciador de janelas.</description>
+    <description xml:lang="ru">Система X Window с выбором оконного менеджера.</description>
+    <description xml:lang="sk">Pracovné prostredie X Window System s výberom správcu okien.</description>
+    <description xml:lang="sr">X Window систем за избором управника прозора.</description>
+    <description xml:lang="sv">Fönstersystemet X med ett urval av fönsterhanterare.</description>
+    <description xml:lang="tr">Pencere yöneticisi seçenekleriyle birlikte X Pencere Sistemi.</description>
+    <description xml:lang="uk">Система X Window з вибором засобу керування вікнами.</description>
+    <description xml:lang="zh_CN">X 窗口系统的窗口管理器的选择。</description>
+    <description xml:lang="zh_TW">X Window 系統，加上一個視窗管理員選項。</description>
+    <display_order>70</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>basic-desktop</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>cinnamon-desktop</groupid>
+      <groupid>firefox</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>kde-desktop</groupid>
+      <groupid>legacy-fonts</groupid>
+      <groupid>libreoffice</groupid>
+      <groupid>lxde-desktop</groupid>
+      <groupid>lxqt-desktop</groupid>
+      <groupid>mate-desktop</groupid>
+      <groupid>sugar-desktop</groupid>
+      <groupid>xfce-desktop</groupid>
+      <groupid>xmonad</groupid>
+      <groupid>xmonad-mate</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>cinnamon-desktop-environment</id>
+    <name>Cinnamon Desktop</name>
+    <name xml:lang="af">Cinnamon-werkskerm</name>
+    <name xml:lang="bg">Cinnamon Работен плот</name>
+    <name xml:lang="ca">Escriptori Cinnamon</name>
+    <name xml:lang="cs">Pracovní prostředí Cinnamon</name>
+    <name xml:lang="da">Cinnamon-skrivebord</name>
+    <name xml:lang="de">Cinnamon-Benutzeroberfläche</name>
+    <name xml:lang="en_GB">Cinnamon Desktop</name>
+    <name xml:lang="es">Escritorio Cinnamon</name>
+    <name xml:lang="fi">Cinnamon-työpöytä</name>
+    <name xml:lang="fr">Bureau Cinnamon</name>
+    <name xml:lang="hu">Cinnamon asztali környezet</name>
+    <name xml:lang="ia">Scriptorio Cinnamon</name>
+    <name xml:lang="id">Desktop Cinnamon</name>
+    <name xml:lang="it">Desktop Cinnamon</name>
+    <name xml:lang="ja">Cinnamon デスクトップ</name>
+    <name xml:lang="ko">시나몬 데스크탑</name>
+    <name xml:lang="nb">Cinnamon skrivebord</name>
+    <name xml:lang="nl">Cinnamon bureaublad</name>
+    <name xml:lang="pa">ਸਿਨਾਮੋਨ ਡੈਸਕਟਾਪ</name>
+    <name xml:lang="pl">Środowisko Cinnamon</name>
+    <name xml:lang="pt">Àrea de Trabalho Cinnamon</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho Cinnamon</name>
+    <name xml:lang="ru">Рабочая среда Cinnamon</name>
+    <name xml:lang="sk">Pracovné prostredie Cinnamon</name>
+    <name xml:lang="sr">Cinnamon окружење</name>
+    <name xml:lang="sv">Cinnamon-skrivbordet</name>
+    <name xml:lang="te">Cinnamon డెస్కుపాట్</name>
+    <name xml:lang="tr">Cinnamon Masaüstü</name>
+    <name xml:lang="uk">Графічне середовище Cinnamon</name>
+    <name xml:lang="zh_CN">Cinnamon 桌面环境</name>
+    <name xml:lang="zh_TW">Cinnamon 桌面</name>
+    <description>Cinnamon provides a desktop with a traditional layout, advanced features, easy to use, powerful and flexible.</description>
+    <description xml:lang="af">Cinnamon bied ’n werkskerm met ’n tradisionele uitleg en gevorderde funksionaliteit, en is kragtig, buigsaam en maklik om te gebruik.</description>
+    <description xml:lang="bg">Cinnamon предоставя традиционно изглеждащ десктоп, разширени функционалности, лесна употреба, мощ и приспособимост.</description>
+    <description xml:lang="ca">Cinnamon proporciona un escriptori amb un disseny tradicional, funcionalitats avançades, facilitat d'ús, potent i flexible.</description>
+    <description xml:lang="cs">Cinnamon poskytuje pracovní prostředí tradičního rozvržení, pokročilé prvky, jednoduché ovládání, výkonné a flexibilní.</description>
+    <description xml:lang="da">Cinnamon leverer et skrivebord med et traditionelt layout, avancerede faciliteter, som er let at bruge, kraftfuld og fleksibel.</description>
+    <description xml:lang="de">Cinnamon stellt eine klassische Benutzeroberfläche zur Verfügung mit erweiterten Funktionen, einfacher Handhabung, ist leistungsstark und flexibel.</description>
+    <description xml:lang="en_GB">Cinnamon provides a desktop with a traditional layout, advanced features, easy to use, powerful and flexible.</description>
+    <description xml:lang="es">Cinnamon proporciona un entorno de escritorio tradicional, con características avanzadas, fácil de usar, potente y flexible.</description>
+    <description xml:lang="fi">Cinnamon on helppokäyttöinen, tehokas ja joustava työpöytä, jossa on perinteinen asettelu ja edistyneitä toimintoja.</description>
+    <description xml:lang="fr">Cinnamon fournit un bureau facile à utiliser, puissant et souple, à la disposition traditionnelle et des fonctionnalités avancées.</description>
+    <description xml:lang="fur">Cinnamon al furnìs un scritori dal aspiet tradizionâl, funzionalitâts avanzadis, facilitât di ûs, potence e flessibilitât.</description>
+    <description xml:lang="hu">A Cinnamon egy hagyományos elrendezésű felületet biztosít, fejlett funkciókkal és könnyű használhatósággal, ráadásul hatékony és rugalmas is.</description>
+    <description xml:lang="ia">Cinnamon provide un scriptorio con un disposition traditional, characteristicas avantiate, facile a usar, potente e flexibile.</description>
+    <description xml:lang="it">Cinnamon fornisce un desktop dall'aspetto tradizionale, caratteristiche avanzate, facilità di utilizzo, potenza e flessibilità.</description>
+    <description xml:lang="ja">Cinnamon デスクトップは従来型のレイアウトのデスクトップ環境です。先進的な機能、使いやすさ、パワフルで柔軟性の高さが魅力です。</description>
+    <description xml:lang="ko">시나몬은 전통적인 구성, 고급 기능, 손쉬운 사용, 강력함과 유연성을 포함하여 제공합니다.</description>
+    <description xml:lang="nb">Cinnamon tilbyr et skrivebord med tradisjonelt oppsett, avanserte funksjoner, enkel bruk, kraftfullt og fleksibelt.</description>
+    <description xml:lang="nl">Cinnamon biedt een bureaublad met een traditionele indeling, geavanceerde functies, gemakkelijk te gebruiken, krachtig en flexibel.</description>
+    <description xml:lang="pl">Cinnamon dostarcza pulpit o tradycyjnym układzie i zaawansowanych funkcjach, jest łatwy w obsłudze i ma duże możliwości.</description>
+    <description xml:lang="pt">Cinnamon oferece uma área de trabalho com um ''layout'' tradicional, funcionalidades avançadas, fáceis de utilizar, poderoso e flexível.</description>
+    <description xml:lang="pt_BR">O Cinnamon oferece uma ambiente com um leiaute tradicional, recursos avançados, facilidade de uso, poderoso e flexível.</description>
+    <description xml:lang="ru">Cinnamon предоставляет рабочий стол с традиционным внешним видом, расширенными возможностями, простой в использовании, мощный и гибкий.</description>
+    <description xml:lang="sk">Cinnamon poskytuje pracovné prostredie tradičného rozvrhnutia, pokročilé funkcie, jednoduché ovládanie, výkon a prispôsobivosť.</description>
+    <description xml:lang="sr">Cinnamon пружа окружење са традиционалним распоредом, напредним функцијама, које је једноставно за употребу, моћно и прилагодљиво.</description>
+    <description xml:lang="sv">Cinnamon erbjuder ett skrivbord med en traditionell layout, avancerade funktioner, lätt att använda, kraftfullt och flexibelt.</description>
+    <description xml:lang="te">సిన్నమోన్, ఆధునిక ఫీచర్లతో ఉపయోగించడానికి సులభమైన శక్తివంతమైన మరియు సౌకర్యవంతమైన ఒక సంప్రదాయ లేఅవుట్, ఒక డెస్క్టాప్ అందిస్తుంది.</description>
+    <description xml:lang="tr">Cinnamon; geleneksel düzenli, gelişmiş özellikli, kolay kullanımlı, güçlü ve esnek bir masaüstü sunar.</description>
+    <description xml:lang="uk">Cinnamon — графічне середовище з традиційним компонуванням, широкими можливостями, просте у користуванні, потужне і гнучке.</description>
+    <description xml:lang="zh_CN">Cinnamon 提供一个具有传统布局，功能丰富，使用方便且灵活的桌面环境。</description>
+    <description xml:lang="zh_TW">Cinnamon 提供具備傳統桌面配置，但擁有進階功能的桌面，易用、強大、充滿彈性。</description>
+    <display_order>22</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>cinnamon-desktop</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid>libreoffice</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>cloud-server-environment</id>
+    <name>Fedora Cloud Server</name>
+    <name xml:lang="af">Fedora-wolkbediener</name>
+    <name xml:lang="bg">Fedora Cloud Сървър</name>
+    <name xml:lang="ca">Servidor de núvols de Fedora</name>
+    <name xml:lang="cs">Fedora Cloud Server</name>
+    <name xml:lang="da">Fedora skyserver</name>
+    <name xml:lang="de">Fedora Cloud Server</name>
+    <name xml:lang="es">Fedora Cloud Server</name>
+    <name xml:lang="fi">Fedora Cloud -palvelin</name>
+    <name xml:lang="fr">Fedora Cloud Server</name>
+    <name xml:lang="hu">Fedora Cloud kiszolgáló</name>
+    <name xml:lang="id">Server Cloud Fedora</name>
+    <name xml:lang="it">Fedora Cloud Server</name>
+    <name xml:lang="ko">페도라 클라우드 서버</name>
+    <name xml:lang="nb">Fedora-skytjener</name>
+    <name xml:lang="nl">Fedora Cloud Server</name>
+    <name xml:lang="pa">ਫੇਡੋਰਾ ਕਲਾਉਡ ਸਰਵਰ</name>
+    <name xml:lang="pl">Fedora Cloud Server</name>
+    <name xml:lang="pt">Fedora Servidor na Nuvem</name>
+    <name xml:lang="pt_BR">Servidor Fedora Cloud</name>
+    <name xml:lang="ru">Fedora Cloud Server</name>
+    <name xml:lang="sk">Fedora Cloud Server</name>
+    <name xml:lang="sv">Fedora Cloud Server</name>
+    <name xml:lang="tr">Fedora Bulut Sunucu</name>
+    <name xml:lang="uk">Сервер «хмари» Fedora</name>
+    <name xml:lang="zh_CN">Fedora Cloud Server</name>
+    <name xml:lang="zh_TW">Fedora Cloud 伺服器</name>
+    <description>A server install with components needed to run in a cloud environment.</description>
+    <description xml:lang="af">’n Bedienerinstallasie met die nodige komponente om in ’n wolkomgewing uit te voer.</description>
+    <description xml:lang="bg">Сървърна инсталация с компоненти, необходими за работа в облачна среда.</description>
+    <description xml:lang="ca">Una instal·lació d'un servidor que inclou els components necessaris per a l'execució d'un entorn de núvol.</description>
+    <description xml:lang="cs">Serverová instalace se součástmi potřebnými pro běh v prostředí cloudu.</description>
+    <description xml:lang="da">En serverinstallation med komponenter der er nødvendige for at køre i et skymiljø.</description>
+    <description xml:lang="de">Serverinstallation, mit notwendigen Komponenten zum Betrieb in einer Cloud-Umgebung</description>
+    <description xml:lang="es">Instalación de servidor con los componentes necesarios para su ejecución en un entorno de &quot;nube&quot;.</description>
+    <description xml:lang="fi">Palvelinasennus ja pilviympäristön vaatimat ohjelmistot.</description>
+    <description xml:lang="fr">Une installation de serveur avec les composants nécessaires pour être lancés dans un environnement Cloud.</description>
+    <description xml:lang="hu">Egy kiszolgáló telepítés olyan komponensekkel, melyek szükségesek a felhős környezetben futtatáshoz.</description>
+    <description xml:lang="id">Suatu instalasi server dengan komponen-komponen yang diperlukan untuk berjalan dalam lingkungan cloud.</description>
+    <description xml:lang="it">Una installazione server con i componenti necessari per l'esecuzione in ambiente cloud.</description>
+    <description xml:lang="ko">클라우드 환경에서 실행에 필요한 구성을 설치하는 서버.</description>
+    <description xml:lang="nb">Tjenerinstallasjon med komponenter som trengs for kjøring i et skymiljø.</description>
+    <description xml:lang="nl">Een serverinstallatie met onderdelen die in een cloud-omgeving moeten draaien.</description>
+    <description xml:lang="pl">Instalacja serwerowa ze składnikami wymaganymi do działania w środowisku chmury.</description>
+    <description xml:lang="pt">Uma instalação de servidor com componentes necessários para a execução num ambiente de nuvem.</description>
+    <description xml:lang="pt_BR">Uma instalação de servidor com os componentes necessários para rodar em um ambiente cloud.</description>
+    <description xml:lang="ru">Серверная установка с компонентами, необходимыми для запуска облачного окружения.</description>
+    <description xml:lang="sk">Serverová inštalácia obsahujúca súčasti potrebné pre beh v prostredí cloudu.</description>
+    <description xml:lang="sv">En serverinstallation med komponenter som behövs för att köra i en molnmiljö.</description>
+    <description xml:lang="tr">Bulut ortamında çalışmak için gereken bileşenlerle birlikte bir sunucu kurulumu.</description>
+    <description xml:lang="uk">Встановлення сервера із компонентами, потрібними для запуску «хмарного» середовища.</description>
+    <description xml:lang="zh_CN">在云环境中运行服务器所需的组件。</description>
+    <description xml:lang="zh_TW">已安裝雲端環境所需組件的伺服器。</description>
+    <display_order>3</display_order>
+    <grouplist>
+      <groupid>cloud-bootloader-tools</groupid>
+      <groupid>cloud-server</groupid>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>directory-server</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>dogtag</groupid>
+      <groupid>freeipa-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>ha</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>load-balancer</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>standard</groupid>
+      <groupid>web-server</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>custom-environment</id>
+    <name>Fedora Custom Operating System</name>
+    <name xml:lang="af">Fedora- pasgemaakte bedryfstelsel</name>
+    <name xml:lang="bg">Персонализирана операционна система на Fedora</name>
+    <name xml:lang="ca">Sistema operatiu Fedora personalitzat</name>
+    <name xml:lang="cs">Zákaznicky upravený operační systém Fedora</name>
+    <name xml:lang="da">Fedora tilpasset styresystem</name>
+    <name xml:lang="de">Fedora Betriebssystem</name>
+    <name xml:lang="es">Sistema Fedora personalizado</name>
+    <name xml:lang="fi">Muokattu Fedora-käyttöjärjestelmä</name>
+    <name xml:lang="fr">Système d’exploitation Fedora personnalisé</name>
+    <name xml:lang="hu">Egyéni Fedora operációs rendszer</name>
+    <name xml:lang="id">Sistem Operasi Ubahan Fedora</name>
+    <name xml:lang="it">Sistema Operativo Personalizzato Fedora</name>
+    <name xml:lang="ko">페도라 사용자 정의 운영 체제</name>
+    <name xml:lang="nb">Egendefinert Fedora-operativsystem</name>
+    <name xml:lang="nl">Fedora Custom besturingssysteem</name>
+    <name xml:lang="pa">ਫੇਡੋਰਾ ਕਸਟਮ ਓਪਰੇਟਿੰਗ ਸਿਸਟਮ</name>
+    <name xml:lang="pl">Niestandardowa Fedora</name>
+    <name xml:lang="pt">Sistema Operativo Personalizado do Fedora</name>
+    <name xml:lang="pt_BR">Sistema Operacional Fedora Customizado</name>
+    <name xml:lang="ru">Настраиваемая операционная система Fedora</name>
+    <name xml:lang="sk">Vlastný operačný systém Fedora</name>
+    <name xml:lang="sv">Fedora Custom operativsystem</name>
+    <name xml:lang="tr">Fedora Özel İşletim Sistemi</name>
+    <name xml:lang="uk">Нетипова операційна система Fedora</name>
+    <name xml:lang="zh_CN">Fedora 定制操作系统</name>
+    <name xml:lang="zh_TW">Fedora 自訂作業系統</name>
+    <description>Basic building block for a custom Fedora system.</description>
+    <description xml:lang="af">Basiese bousteen vir ’n pasgemaakte Fedora-stelsel.</description>
+    <description xml:lang="bg">Основен градивен елемент за персонализирана система Fedora.</description>
+    <description xml:lang="ca">Bloc de construcció bàsic per a un sistema Fedora personalitzat.</description>
+    <description xml:lang="cs">Základní stavební blok pro zákaznicky upravený systém Fedory.</description>
+    <description xml:lang="da">Basale byggesten til et tilpasset Fedora-system.</description>
+    <description xml:lang="de">Grundlegender Baustein für ein benutzerdefiniertes Fedora System</description>
+    <description xml:lang="es">Bloque básico para la construcción de un sistema Fedora personalizado.</description>
+    <description xml:lang="fi">Perusosa muokatun Fedora-järjestelmän rakentamiseen.</description>
+    <description xml:lang="fr">Socle de construction basique pour un système Fedora personnalisé.</description>
+    <description xml:lang="hu">Alapvető építőkockák egy egyéni Fedora rendszerhez.</description>
+    <description xml:lang="it">Parti fondamentali per la creazione di un sistema Fedora personalizzato.</description>
+    <description xml:lang="ko">사용자 페도라 시스템을 위해 기본적으로 구축된 블럭.</description>
+    <description xml:lang="nb">Grunnleggende grunnstein for egendefinert Fedora-system.</description>
+    <description xml:lang="nl">Basis bouwblokken voor een aangepast Fedora systeem.</description>
+    <description xml:lang="pl">Podstawa do budowania niestandardowej Fedory.</description>
+    <description xml:lang="pt">Bloco de criação básico para um sistema personalizado do Fedora.</description>
+    <description xml:lang="pt_BR">Bloco de construção básico para um sistema Fedora customizado.</description>
+    <description xml:lang="ru">Основной блок построения для настраиваемой системы Fedora</description>
+    <description xml:lang="sk">Základný stavebný blok pre vlastný systém Fedora.</description>
+    <description xml:lang="sv">Grundläggande byggblock för ett anpassat Fedorasystem.</description>
+    <description xml:lang="tr">Özel bir Fedora sistemi için temel inşa bloğu.</description>
+    <description xml:lang="uk">Базовий блок для нетипової системи Fedora.</description>
+    <description xml:lang="zh_CN">为定制 Fedora 系统提供基本构建工具。</description>
+    <description xml:lang="zh_TW">自訂 Fedora 系統所需的基本建置元件。</description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>guest-agents</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>standard</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>deepin-desktop-environment</id>
+    <name>Deepin Desktop</name>
+    <name xml:lang="da">Deepin-skrivebord</name>
+    <name xml:lang="fi">Deepin-työpöytä</name>
+    <name xml:lang="fr">Environnement Deepin</name>
+    <name xml:lang="ko">Deepin 데스크탑</name>
+    <name xml:lang="nl">Deepin bureaublad</name>
+    <name xml:lang="pl">Środowisko Deepin</name>
+    <name xml:lang="pt_BR">Área de trabalho deepin</name>
+    <name xml:lang="sk">Pracovné prostredie Deepin</name>
+    <name xml:lang="sv">Deepin-skrivbord</name>
+    <name xml:lang="tr">Deepin Masaüstü</name>
+    <name xml:lang="uk">Стільниця Deepin</name>
+    <description>Deepin desktop is the desktop environment released with deepin. It aims at being elegant and easy to use.</description>
+    <description xml:lang="fi">Deepin työpöytä on deepin kanssa julkaistu työpöytäympäristö. Se pyrkii olemaan elegantti ja helppokäyttöinen.</description>
+    <description xml:lang="fr">Deepin est l’environnement de bureau publié avec deepin. Il se veut élégant et facile à utiliser.</description>
+    <description xml:lang="ko">Deepin 데스크탑은 deepin과 함께 출시된 데스크탑 환경입니다. 이는 우아하고 사용하기 쉬운 것을 목적으로 합니다.</description>
+    <description xml:lang="nl">Deepin bureaublad is de bureaubladomgeving die wordt uitgebracht met deepin. Het is bedoeld om elegant en gebruiksvriendelijk te zijn.</description>
+    <description xml:lang="pl">Deepin to eleganckie i łatwe w użyciu środowisko pulpitu wydawane z systemem deepin.</description>
+    <description xml:lang="pt_BR">Área de trabalho deeping é o ambiente de área de trabalho lançado com o deepin. Ele visa ser elegante e fácil de usar.</description>
+    <description xml:lang="sk">Deepin pracovné prostredie je prostredie desktopu vydané spolu s deepin. Kladie si za cieľ byť elegantné a jednoduché na používanie.</description>
+    <description xml:lang="sv">Deepin-skrivbord är skrivbordsmiljön som släppts tillsammans med deepin. Den ämnar vara elegant och enkel att använda.</description>
+    <description xml:lang="tr">Deepin masaüstü, Deepin dağıtımı ile yayınlanan masaüstü ortamıdır. Şık ve kullanımı kolay olmayı hedefler.</description>
+    <description xml:lang="uk">Стільниця Deepin є стільничним середовищем, яке випускається з deepin. Його створено елегантним і простим у користуванні.</description>
+    <display_order>26</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>deepin-desktop</groupid>
+      <groupid>deepin-desktop-apps</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid>deepin-desktop-media</groupid>
+      <groupid>deepin-desktop-office</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>developer-workstation-environment</id>
+    <name>Development and Creative Workstation</name>
+    <name xml:lang="af">Ontwikkeling en kreatiewe werkstasie</name>
+    <name xml:lang="bg">Работна станция за разработка и Creative</name>
+    <name xml:lang="ca">Estació de treball de desenvolupament i creativa</name>
+    <name xml:lang="cs">Vývoj a kreativní pracovní stanice</name>
+    <name xml:lang="da">Udvikling og kreativ arbejdsstation</name>
+    <name xml:lang="de">Entwicklung und kreativer Arbeitsplatz</name>
+    <name xml:lang="en_GB">Development and Creative Workstation</name>
+    <name xml:lang="es">Estación de trabajo para desarrollo y creatividad</name>
+    <name xml:lang="fi">Ohjelmisto- ja luovien alojen työasema</name>
+    <name xml:lang="fr">Station de travail de développement et de création</name>
+    <name xml:lang="hu">Fejlesztés és kreatív munkaállomás</name>
+    <name xml:lang="ia">Station de travalio pro le disveloppamento e obras creative</name>
+    <name xml:lang="id">Workstation Kreatif dan Pengembangan</name>
+    <name xml:lang="it">Workstation di Sviluppo e Creativa</name>
+    <name xml:lang="ja">開発環境とクリエイティブワークステーション</name>
+    <name xml:lang="ko">개발과 창조적인 웍스테이션</name>
+    <name xml:lang="nb">Utvikling og kreativ arbeidsstasjon</name>
+    <name xml:lang="nl">Workstation voor ontwikkeling en creativiteit</name>
+    <name xml:lang="pa">ਡਿਵੈਲਪਮੈਂਟ ਅਤੇ ਕਰੀਏਟਿਵ ਵਰਕਸਟੇਸ਼ਨ</name>
+    <name xml:lang="pl">Stacja robocza programowania i kreatywności</name>
+    <name xml:lang="pt">Desenvolvimento e Estaçao de Trabalho Criativa</name>
+    <name xml:lang="pt_BR">Desenvolvimento e Estação de Trabalho Criativa</name>
+    <name xml:lang="ru">Рабочая станция для разработки и творчества</name>
+    <name xml:lang="sk">Vývoj a kreatívne pracovné stanice</name>
+    <name xml:lang="sr">Радна станица за развој и креативност</name>
+    <name xml:lang="sv">Utvecklings- och kreativ arbetsstation</name>
+    <name xml:lang="tr">Geliştirme ve Yaratıcılık İş İstasyonu</name>
+    <name xml:lang="uk">Робоча станція для розробки та творчої роботи</name>
+    <name xml:lang="zh_CN">开发和创意工作站</name>
+    <name xml:lang="zh_TW">開發與創意工作站</name>
+    <description>Workstation for software, hardware, graphics, or content development.</description>
+    <description xml:lang="af">Werkstasie vir die ontwikkeling van sagteware, hardeware, grafika of inhoud.</description>
+    <description xml:lang="bg">Работна станция за разработка на софтуер, хардуер, графика или друго съдържание.</description>
+    <description xml:lang="ca">Estació de treball per al desenvolupament de programari, maquinari, gràfics o continguts.</description>
+    <description xml:lang="cs">Pracovní stanice pro vývoj softwaru, hardwaru, grafiky nebo obsahu.</description>
+    <description xml:lang="da">Arbejdsstation til software-, hardware-, grafik- eller indholdsudvikling.</description>
+    <description xml:lang="de">Arbeitsplatz für Software, Hardware, Grafik oder Content-Entwicklung</description>
+    <description xml:lang="en_GB">Workstation for software, hardware, graphics, or content development.</description>
+    <description xml:lang="es">Puesto de trabajo para software, hardware, gráficos o desarrollo de contenidos.</description>
+    <description xml:lang="fi">Työasema ohjelmiston, laitteiston, grafiikan ja sisällön tuottamiseen.</description>
+    <description xml:lang="fr">Station de travail pour le développement logiciel, matériel, graphique et de contenu.</description>
+    <description xml:lang="hu">Munkaállomás szoftverek, hardver-, grafikai, és tartalomfejlesztéshez.</description>
+    <description xml:lang="ia">Le station de travalio pro le disveloppamento de software, hardware, obras graphic o contentos.</description>
+    <description xml:lang="id">Workstation untuk pengembangan konten, grafis, perangkat keras, atau perangkat lunak.</description>
+    <description xml:lang="it">Workstation per sviluppo software, hardware, grafica o di contenuti</description>
+    <description xml:lang="ja">ワークステーション向けのソフトウェア、ハードウェア、グラフィックス、コンテンツ開発環境</description>
+    <description xml:lang="ko">소프트웨어, 하드웨어, 그래픽, 또는 내용 개발을 위한 웍스테이션.</description>
+    <description xml:lang="nb">Arbeidsstasjon for utvikling av programvare, grafikk eller innhold.</description>
+    <description xml:lang="nl">Workstation voor software, hardware, grafische of inhoud ontwikkeling.</description>
+    <description xml:lang="pa">ਸਾਫਟਵੇਅਰ, ਹਾਰਡਵੇਅਰ, ਗਾਰਫਿਕਸ ਜਾਂ ਸਮੱਗਰੀ ਬਣਾਉਣ ਲਈ ਵਰਕਸਟੇਸ਼ਨ ਹੈ।</description>
+    <description xml:lang="pl">Stacja robocza do rozwoju oprogramowania, sprzętu, grafiki lub innych treści.</description>
+    <description xml:lang="pt">Estaçao de Trabalho para software, hardware, gráficos, ou desenvolvimento de conteúdo.</description>
+    <description xml:lang="pt_BR">Estação de trabalho para desenvolvimento de software, hardware, gráficos, ou conteúdo.</description>
+    <description xml:lang="ru">Рабочая станция для разработки программного или аппаратного обеспечения, графики или информационного наполнения.</description>
+    <description xml:lang="sk">Pracovné stanice pre softvér, hardvér, grafiku alebo vývoj konceptov.</description>
+    <description xml:lang="sr">Радна станица за софтверски, хардверски и садржајски развој</description>
+    <description xml:lang="sv">Arbetsstation för utveckling av programvara, hårdvara, grafik eller media.</description>
+    <description xml:lang="tr">Yazılım, donanım, grafik veya içerik geliştirme için iş istasyonu.</description>
+    <description xml:lang="uk">Робоча станція для розробки програмного чи апаратного забезпечення, графічних робіт або роботи з текстом.</description>
+    <description xml:lang="zh_CN">适合软件，硬件，图形或内容开发。</description>
+    <description xml:lang="zh_TW">軟體、硬體、美工繪圖、內容創作等開發性作業工作站。</description>
+    <display_order>35</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>c-development</groupid>
+      <groupid>core</groupid>
+      <groupid>development-libs</groupid>
+      <groupid>development-tools</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fedora-packager</groupid>
+      <groupid>firefox</groupid>
+      <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>gnome-software-development</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>kde-software-development</groupid>
+      <groupid>kf5-software-development</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>rpm-development-tools</groupid>
+      <groupid>standard</groupid>
+      <groupid>virtualization</groupid>
+      <groupid>web-server</groupid>
+      <groupid>x-software-development</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid>design-suite</groupid>
+      <groupid>electronic-lab</groupid>
+      <groupid>font-design</groupid>
+      <groupid>haskell</groupid>
+      <groupid>java-development</groupid>
+      <groupid>javaenterprise</groupid>
+      <groupid>milkymist</groupid>
+      <groupid>mingw32</groupid>
+      <groupid>mongodb</groupid>
+      <groupid>mysql</groupid>
+      <groupid>ocaml</groupid>
+      <groupid>perl-web</groupid>
+      <groupid>php</groupid>
+      <groupid>robotics-suite</groupid>
+      <groupid>rubyonrails</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>vagrant</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>i3-desktop-environment</id>
+    <name>i3 desktop</name>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>i3</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>i3-extended</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>infrastructure-server-environment</id>
+    <name>Infrastructure Server</name>
+    <name xml:lang="af">Infrastruktuurbediener</name>
+    <name xml:lang="bg">Infrastructure Server</name>
+    <name xml:lang="ca">Servidor d'infraestructura</name>
+    <name xml:lang="cs">Infrastrukturní server</name>
+    <name xml:lang="da">Infrastruktur-server</name>
+    <name xml:lang="de">Infrastruktur-Server</name>
+    <name xml:lang="en_GB">Infrastructure Server</name>
+    <name xml:lang="es">Infraestructura del Servidor</name>
+    <name xml:lang="fi">Infrastruktuuripalvelin</name>
+    <name xml:lang="fr">Serveur d’infrastructure</name>
+    <name xml:lang="hu">Infrastruktúra kiszolgáló</name>
+    <name xml:lang="ia">Servitor de infrastructura</name>
+    <name xml:lang="id">Server Infrastruktur</name>
+    <name xml:lang="it">Server per infrastrutture</name>
+    <name xml:lang="ja">インフラサーバー</name>
+    <name xml:lang="ko">인프라스트럭처 서버</name>
+    <name xml:lang="nb">Infrastrukturtjener</name>
+    <name xml:lang="nl">Infrastructuurserver</name>
+    <name xml:lang="pa">ਇੰਫਰਾਸਟੱਕਚਰ ਸਰਵਰ</name>
+    <name xml:lang="pl">Serwer infrastruktury</name>
+    <name xml:lang="pt">Servidor de infra-estrutura</name>
+    <name xml:lang="pt_BR">Servidor de Infraestrutura</name>
+    <name xml:lang="ru">Сервер инфраструктуры</name>
+    <name xml:lang="sk">Infraštruktúrny server</name>
+    <name xml:lang="sr">Сервер за инфраструктуру</name>
+    <name xml:lang="sv">Infrastrukturserver</name>
+    <name xml:lang="te">నెట్వర్క్ సేవిక</name>
+    <name xml:lang="tr">Alt Yapı Sunucusu</name>
+    <name xml:lang="uk">Сервер інфраструктури</name>
+    <name xml:lang="zh_CN">基础设施服务器</name>
+    <name xml:lang="zh_TW">基礎設施伺服器</name>
+    <description>Server for operating network infrastructure services.</description>
+    <description xml:lang="af">Bediener om netwerkinfrastruktuurdienste mee te bedryf.</description>
+    <description xml:lang="bg">Сървър за предоставяне на инфраструктурни мрежови услуги.</description>
+    <description xml:lang="ca">Servidor per al funcionament dels serveis d'infraestructura de xarxa.</description>
+    <description xml:lang="cs">Server provozující síťové infrastrukturní služby.</description>
+    <description xml:lang="da">Server til at opererer tjenester til netværksinfrastruktur.</description>
+    <description xml:lang="de">Server, um Netzwerk-Infrastrukturdienste zu betreiben.</description>
+    <description xml:lang="en_GB">Server for operating network infrastructure services.</description>
+    <description xml:lang="es">Servidor para  explotación de las infraestructuras de red.</description>
+    <description xml:lang="fi">Palvelin verkon infrastruktuuripalveluja varten.</description>
+    <description xml:lang="fr">Serveur pour les opérations de services d’infrastructures réseau.</description>
+    <description xml:lang="hu">Kiszolgáló hálózat infrastruktúra szolgáltatásokhoz.</description>
+    <description xml:lang="ia">Le servitor pro le execution del servicios de infrastructura de rete.</description>
+    <description xml:lang="it">Server per operare i servizi di infrastruttura di rete</description>
+    <description xml:lang="ja">オペレーティング・ネットワーク・インフラストラクチャサービスのためのサーバー</description>
+    <description xml:lang="ko">네트워크 인프라스트럭처 서비스 운영영을 위한 서버.</description>
+    <description xml:lang="nb">Tjener for nettverksinfrastrukturtjenester.</description>
+    <description xml:lang="nl">Server werkzaam voor netwerkinfrastructuur services.</description>
+    <description xml:lang="pl">Serwer do działania usług infrastruktury sieciowej.</description>
+    <description xml:lang="pt">Servidor para operar serviços de infra-estrutura de rede.</description>
+    <description xml:lang="pt_BR">Servidor para operar serviços de infraestrutura de rede.</description>
+    <description xml:lang="ru">Сервер для работы служб сетевой инфраструктуры.</description>
+    <description xml:lang="sk">Server prevádzkujúci sieťové infraštruktúrne služby.</description>
+    <description xml:lang="sr">Сервер за функционисање сервиса мрежних инфраструктура</description>
+    <description xml:lang="sv">Server för att driva tjänster för nätverksinfrastruktur.</description>
+    <description xml:lang="tr">Ağ alt yapısı hizmetlerini işletmek için sunucu.</description>
+    <description xml:lang="uk">Сервер для керування службами інфраструктури мережі.</description>
+    <description xml:lang="zh_CN">运行网络基础设施服务。</description>
+    <description xml:lang="zh_TW">操作網路基礎設施服務的伺服器。</description>
+    <display_order>55</display_order>
+    <grouplist>
+      <groupid>container-management</groupid>
+      <groupid>core</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>directory-server</groupid>
+      <groupid>dns-server</groupid>
+      <groupid>dogtag</groupid>
+      <groupid>freeipa-server</groupid>
+      <groupid>ftp-server</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>ha</groupid>
+      <groupid>load-balancer</groupid>
+      <groupid>mail-server</groupid>
+      <groupid>mysql</groupid>
+      <groupid>network-server</groupid>
+      <groupid>printing</groupid>
+      <groupid>smb-server</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>virtualization</groupid>
+      <groupid>web-server</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>kde-desktop-environment</id>
+    <name>KDE Plasma Workspaces</name>
+    <name xml:lang="bg">KDE Plasma Workspaces</name>
+    <name xml:lang="ca">KDE Plasma Workspaces</name>
+    <name xml:lang="cs">Pracovní plochy KDE Plasma</name>
+    <name xml:lang="da">KDE Plasma-arbejdsområder</name>
+    <name xml:lang="de">KDE Plasma-Arbeitsumgebung</name>
+    <name xml:lang="en_GB">KDE Plasma Workspaces</name>
+    <name xml:lang="es">Espacios de trabajo KDE Plasma</name>
+    <name xml:lang="fi">KDE Plasma -työtilat</name>
+    <name xml:lang="fr">KDE Plasma Workspaces</name>
+    <name xml:lang="hu">KDE Plasma Workspaces</name>
+    <name xml:lang="ia">Spatios de travalio KDE Plasma</name>
+    <name xml:lang="id">Ruang Kerja Plasma KDE</name>
+    <name xml:lang="it">Spazi di lavoro Plasma per KDE</name>
+    <name xml:lang="ja">KDE Plasma デスクトップワークスペース</name>
+    <name xml:lang="ko">KDE 플래즈마 웍스페이스</name>
+    <name xml:lang="nb">KDE Plasma arbeidsområder</name>
+    <name xml:lang="nl">KDE Plasma werkruimtes</name>
+    <name xml:lang="pa">ਕੇਡੀਈ ਪਲਾਜ਼ਮਾ ਵਰਕਸਪੇਸ</name>
+    <name xml:lang="pl">Środowisko KDE Plasma</name>
+    <name xml:lang="pt">Espaços de Trabalho Plasma do KDE</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho KDE Plasma</name>
+    <name xml:lang="ru">KDE Plasma Workspaces</name>
+    <name xml:lang="sk">Pracovná plocha KDE Plasma</name>
+    <name xml:lang="sr">KDE Plasma Workspaces</name>
+    <name xml:lang="sv">KDE Plasma arbetsytor</name>
+    <name xml:lang="te">KDE ప్లాస్మా పని ప్రదేశాలు</name>
+    <name xml:lang="tr">KDE Plasma Çalışma Alanları</name>
+    <name xml:lang="uk">Робоче середовище Плазми KDE</name>
+    <name xml:lang="zh_CN">KDE Plasma 工作区</name>
+    <name xml:lang="zh_TW">KDE Plasma 工作空間</name>
+    <description>The KDE Plasma Workspaces, a highly-configurable graphical user interface which includes a panel, desktop, system icons and desktop widgets, and many powerful KDE applications.</description>
+    <description xml:lang="bg">The KDE Plasma Workspaces, графичен потребителски интерфейс с големи възможности за конфигуриране, включващ панел, работна среда, системни икони и инструменти, и всякакви, много мощни KDE приложения.</description>
+    <description xml:lang="ca">KDE Plasma Workspaces, una interfície gràfica d'usuari molt configurable que inclou un tauler, un escriptori, icones de sistema i enginys per a l'escriptori i altres aplicacions útils de KDE.</description>
+    <description xml:lang="cs">Pracovní plochy KDE Plasma je vysoce-konfigurovatelné grafické uživatelské rozhraní zahrnující panely, pracovni plochu, systémové ikony, widgety a mnoho vykonných KDE aplikací.</description>
+    <description xml:lang="da">KDE Plasma-arbejdsområder, en grafisk brugerflade som kan konfigureres meget og som inkluderer et panel, skrivebord, systemikoner, skrivebordswidgets og mange kraftfulde KDE-programmer.</description>
+    <description xml:lang="de">Die KDE Plasma-Arbeitsumgebung ist eine hoch-konfigurierbare grafische Benutzeroberfläche mit Menüleiste, Schreibtisch, Systemsymbolen, Widgets und vielen ausgefeilten KDE-Anwendungen.</description>
+    <description xml:lang="en_GB">The KDE Plasma Workspaces, a highly-configurable graphical user interface which includes a panel, desktop, system icons and desktop widgets, and many powerful KDE applications.</description>
+    <description xml:lang="es">Los espacios de trabajo KDE plasma tienen una interfaz totalmente configurable, que incluye un panel, un escritorio, sistema de iconos y widgets y muchas aplicaciones de KDE.</description>
+    <description xml:lang="fi">KDE Plasma Workspaces, muokattava graafinen käyttöliittymä, johon kuuluu paneeli, työpöytä, järjestelmäkuvakkeet ja graafinen tiedostohallinta sekä useita KDE-ohjelmia.</description>
+    <description xml:lang="fr">L’interface graphique utilisateur hautement configurable KDE Plasma, qui contient un tableau de bord, un bureau, des icônes systèmes, des widgets de bureau ainsi que de nombreuses applications KDE.</description>
+    <description xml:lang="fur">I spazis di lavôr Plasma KDE, une interface utent grafiche une vore configurabile che e inclût un panel, scritori, iconis di sisteme e widget di scritori e tantis potentis aplicazions KDE.</description>
+    <description xml:lang="hu">A KDE Plasma Workspaces egy részletesen konfigurálható grafikus felhasználói felületet, melynek része a panel, az asztal, a rendszerikonok, az asztali kisalkalmazások és sok más hatékony KDE alkalmazás.</description>
+    <description xml:lang="ia">Le spatios de travalio KDE Plasma es un interfacie graphic de usator multo configurabile que comprende un pannello, un scriptorio, icones de systema, widgets de scriptorio e numerose applicationes KDE.</description>
+    <description xml:lang="it">Spazi di lavoro Plasma per KDE, una interfaccia grafica molto configurabile che include un pannello, scrivania, icone di sistema e applicazioni su scrivania, e molte potenti applicazioni KDE</description>
+    <description xml:lang="ja">KDE Plasma ワークスペースはパネル、デスクトップ、システムアイコン、デスクトップウィジェット、および多くの強力なKDEアプリケーションを搭載するグラフィカルユーザーインターフェースです。</description>
+    <description xml:lang="ko">KDE 플레즈마 작업공간, 패널, 데스크탑, 시스템 아이콘과 데스크탑 위젯, 그리고 많은 강력한 KDE 응용프로그램을 포함하는 것과 같이 고도로-설정 할 수 있는 그래픽 사용자 연결장치.</description>
+    <description xml:lang="nl">De KDE Plasma-werkruimtes is een heel configureerbare grafische gebruikersinterface met paneel, bureaublad, systeemiconen en bureaubladwidgets, met daarnaast vele krachtige KDE-toepassingen.</description>
+    <description xml:lang="pa">ਕੇਡੀਈ (KDE) ਪਲਾਜ਼ਮਾ ਵਰਕਸਪੇਸ, ਪੂਰੀ ਤਰ੍ਹਾਂ ਸੰਰਚਨਾ ਕਰਨ ਯੋਗ ਗਰਾਫਿਕਲ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਹੈ, ਜਿਸ ਵਿੱਚ ਪੈਨਲ, ਡੈਸਕਟਾਪ, ਸਿਸਟਮ ਆਈਕਾਨ ਅਤੇ ਡੈਸਕਟਾਪ ਵਿਦਜੈਟ ਹਨ, ਕਈ ਮਜ਼ਬੂਤ ਕੇਡੀਈ ਐਪਲੀਕੇਸ਼ਨ ਸਮੇਤ।</description>
+    <description xml:lang="pl">KDE Plasma, wysoce konfigurowalny graficzny interfejs użytkownika zawierający panel, pulpit, ikony systemowe, widżety pulpitu i wiele aplikacji KDE o dużych możliwościach.</description>
+    <description xml:lang="pt">O Plasma KDE Workspaces, um interface gráfico altamente configurável que inclui um painel, desktop, ícones do sistema e widgets de desktop, e muitos aplicativos do KDE poderosos.</description>
+    <description xml:lang="pt_BR">O ambiente de trabalho KDE Plasma, uma interface gráfica de usuário altamente configurável que inclui um painel, uma área de trabalho, ícones de sistema, widgets para a área de trabalho e muitos aplicativos poderosos do KDE.</description>
+    <description xml:lang="ru">KDE Plasma Workspaces - легко настраиваемый графический интерфейс пользователя, который содержит панель, рабочий стол, системные значки и виджеты рабочего стола, а также множество эффективных приложений KDE.</description>
+    <description xml:lang="sk">Pracovná plocha KDE Plasma , vysoko konfigurovateľné grafické používateľské rozhranie, ktoré obsahuje panel, pracovnú plochu, systémové ikony a widgety plochy a množstvo užitočných a výkonných KDE aplikácií.</description>
+    <description xml:lang="sr">KDE Plasma Workspaces, веома подесиво графичко окружење које укључује панел, позадину, системске иконице, виџете за позадину и много моћних KDE програма.</description>
+    <description xml:lang="sv">KDE Plasma arbetsytor, ett mycket konfigurerbart grafiskt användargränssnitt som inkluderar en panel, skrivbord, systemikoner och skrivbordsprogram och många kraftfulla KDE-program.</description>
+    <description xml:lang="te">KDE ప్లాస్మా పని ప్రదేశాలు, ఒక ప్యానెల్, డెస్క్టాప్, వ్యవస్థ గుర్తులు మరియు డెస్క్టాప్ విడ్జెట్, మరియు అనేక శక్తివంతమైన KDE అప్లికేషన్లు కలిగి అత్యంత నిర్వహించగల గ్రాఫికల్ యూజర్ ఇంటర్ఫేస్.</description>
+    <description xml:lang="tr">KDE Plasma Çalışma Alanları; panel, masaüstü, sistem simgeleri, masaüstü araç gereçleri ve birçok güçlü KDE uygulaması içeren yüksek derecede yapılandırılabilir bir grafiksel kullanıcı arayüzüdür.</description>
+    <description xml:lang="uk">Робочий простір Плазми KDE складається з дуже гнучкого у налаштовуванні графічного інтерфейсу, що складається з панелі, стільниці, системних піктограм та віджетів стільниці, та багатьох потужних програм KDE.</description>
+    <description xml:lang="zh_CN">KDE Plasma 是一个可灵活配置的图形用户界面，包括面板，桌面，系统图标和桌面小部件，以及许多功能强大的 KDE 应用程序。</description>
+    <description xml:lang="zh_TW">KDE Plasma 工作空間，是設定可高度調整的圖形化使用介面，包含面板、桌面、系統圖示、桌面小工具、許多強大的 KDE 應用程式等。</description>
+    <display_order>10</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>kde-desktop</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid default="true">firefox</groupid>
+      <groupid default="true">kde-apps</groupid>
+      <groupid>kde-education</groupid>
+      <groupid default="true">kde-media</groupid>
+      <groupid>kde-telepathy</groupid>
+      <groupid default="true">libreoffice</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>lxde-desktop-environment</id>
+    <name>LXDE Desktop</name>
+    <name xml:lang="af">LXDE-werkskerm</name>
+    <name xml:lang="bg">LXDE Работен плот</name>
+    <name xml:lang="ca">Escriptori LXDE</name>
+    <name xml:lang="cs">Pracovní prostředí LXDE</name>
+    <name xml:lang="da">LXDE-skrivebord</name>
+    <name xml:lang="de">LXDE-Benutzeroberfläche</name>
+    <name xml:lang="en_GB">LXDE Desktop</name>
+    <name xml:lang="es">Escritorio LXDE</name>
+    <name xml:lang="fi">LXDE-työpöytä</name>
+    <name xml:lang="fr">Bureau LXDE</name>
+    <name xml:lang="hu">LXDE asztali környezet</name>
+    <name xml:lang="ia">Scriptorio LXDE</name>
+    <name xml:lang="id">Desktop LXDE</name>
+    <name xml:lang="it">Desktop LXDE</name>
+    <name xml:lang="ja">LXDE デスクトップ</name>
+    <name xml:lang="ko">LXDE 데스크탑</name>
+    <name xml:lang="nb">LXDE skrivebord</name>
+    <name xml:lang="nl">LXDE bureaublad</name>
+    <name xml:lang="pl">Środowisko LXDE</name>
+    <name xml:lang="pt">Àrea de Trabalho LXDE</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho LXDE</name>
+    <name xml:lang="ru">Рабочая среда LXDE</name>
+    <name xml:lang="sk">Pracovné prostredie LXDE</name>
+    <name xml:lang="sr">LXDE окружење</name>
+    <name xml:lang="sv">LXDE-skrivbordet</name>
+    <name xml:lang="te">LXDE డెస్కుపాట్</name>
+    <name xml:lang="tr">LXDE Masaüstü</name>
+    <name xml:lang="uk">Графічне середовище LXDE</name>
+    <name xml:lang="zh_CN">LXDE 桌面环境</name>
+    <name xml:lang="zh_TW">LXDE 桌面</name>
+    <description>LXDE is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
+    <description xml:lang="af">LXDE is ’n liggewig-X11-werkskermomgewing wat ontwerp is vir rekenaars met beperkte hardewarespesifikasies soos netboeke, mobiele toestelle of ouer rekenaars.</description>
+    <description xml:lang="ar">LXDE هي بيئة سطح مكتب X11 خفيفة الوزن مصممة لأجهزة الحاسب مع مواصفات أجهزة منخفضة مثل netbooks، والأجهزة النقالة أو أجهزة الحاسب القديمة.</description>
+    <description xml:lang="as">LXDE মূলত, নিম্ন ক্ষমতাসম্পন্ন যন্ত্ৰ যেনে নেটবুক, মোবাইল যন্ত্ৰ বা পুৰনি কম্পিউটাৰে সহজে সঞ্চালন কৰিব পৰা স্বল্পমাপৰ X11 ডেস্কট'প পৰিবেশ ।</description>
+    <description xml:lang="ast">LXDE ye un entornu d'escritoriu de X11 llixeru diseñáu pa computadores con baxas especificaciones de hardware como les netbooks, preseos móviles y computadores vieyes.</description>
+    <description xml:lang="bg">LXDE е лека X11 работна среда, създадена за компютри с ниски хардуерни характеристики като нетбуци, мобилни устройства или по-стари компютри.</description>
+    <description xml:lang="bn">LXDE মূলত, নিম্ন ক্ষমতাসম্পন্ন মেশিনে যেমন নেটবুক, মোবাইল ডিভাইস অথবা পুরোনো কম্পিউটারে সহজে সঞ্চালনযোগ্য স্বল্পমাপের X11 ডেস্কটপ পরিবেশ।</description>
+    <description xml:lang="bn_IN">LXDE মূলত, নিম্ন ক্ষমতাসম্পন্ন মেশিনে যেমন নেটবুক, মোবাইল ডিভাইস অথবা পুরোনো কম্পিউটারে সহজে সঞ্চালনযোগ্য স্বল্পমাপের X11 ডেস্কটপ পরিবেশ।</description>
+    <description xml:lang="ca">LXDE és un escriptori lleuger per a X11 dissenyat per a ordinadors amb pocs recursos, com ara miniportàtils, dispositius mòbils o ordinadors vells.</description>
+    <description xml:lang="cs">LXDE je odlehčené uživatelské prostředí, které je určeno pro X Window System na počítačích s málo výkonným hardware, jako jsou NetBooky, mobilní zařízení nebo starší počítače.</description>
+    <description xml:lang="da">LXDE er et letvægts X11-skrivebordsmiljø designet til computere med lave hardwarespecifikationer, såsom netbooks, mobile enheder eller ældre computere.</description>
+    <description xml:lang="de">LXDE ist eine schlanke X11-Arbeitsumgebung, welche für Rechner mit leistungsschwacher Hardware, wie beispielsweise Netbooks, mobile Geräte oder ältere Rechner entwickelt wurde.</description>
+    <description xml:lang="el">Το LXDE είναι μια ελαφριά επιφάνεια εργασίας X11 που αποδίδει πολύ καλά σε συσκευές όπως netbooks και φορητές συσκευές όπως και σε παλαιότερα μηχανήματα.</description>
+    <description xml:lang="en_GB">LXDE is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
+    <description xml:lang="es">LXDE es un entorno de escritorio de X11 liviano diseñado para computadoras con bajas especificaciones de hardware como las netbooks, dispositivos móviles y computadoras viejas.</description>
+    <description xml:lang="et">LXDE on tagasihoidlik X11 töökeskkond eelkõige kesisema riistvaraga masinatele, näiteks pisisülearvutid, mobiilsed seadmed või vanemad arvutid.</description>
+    <description xml:lang="fa">LXDEیک محیط میزکار سبک طراحی شده برای رایانه‌هایی با  مشخصات سخت‌افزاری پایین مانند نت‌بوک‌ها، تجهیزات همراه یا رایانه‌های قدیمی است</description>
+    <description xml:lang="fi">LXDE on kevyt X11-työpöytäympäristö, joka on suunniteltu vähäisillä laitteiston ominaisuuksilla varustetuille tietokoneille, kuten miniläppäreille, mobiililaitteille ja vanhoille tietokoneille.</description>
+    <description xml:lang="fr">LXDE est un environnement de bureau X11 léger, conçu pour des ordinateurs de faible puissance, tels que les netbooks, les appareils mobiles, ou d’anciens ordinateurs.</description>
+    <description xml:lang="gu">LXDE એ નીચી હાર્ડવેર વિશિષ્ટતાઓ જેવી કે નેટબુકો, મોબાઇલ ઉપકરણો અથવા જૂના કમ્પ્યુટરો સાથે કમ્પ્યુટરો માટે ઓછા વજનનું X11 ડેસ્કટોપ પર્યાવરણ રચિત થયેલ છે.</description>
+    <description xml:lang="he">LXDE היא סביבת שולחן עבודה קלת משקל עבור X11, שתוכננה עבור מחשבים עם חומרה חלשה, כמו מחשבים מיני-ניידים, התקנים ניידים או מחשבים ישנים.</description>
+    <description xml:lang="hi">LXDE एक हल्का X11 डेस्कटॉप वातावरण है जो कि वैसे कंप्यूटरों के लिए डिजायन किया गया है जो नेटबुक, मोबाइल युक्तियाँ या पुराने कंप्यूटर हैं.</description>
+    <description xml:lang="hu">Az LXDE egy pehelykönnyű X11 asztali környezet alacsony hardverspecifikációjú számítógépek számára, mint például netbookok, mobileszközök vagy régebbi számítógépek.</description>
+    <description xml:lang="ia">LXDE es un abiente de scriptorio X11 designate pro le computatores con basse specificationes de hardware tal que netbooks, dispositiovos mobile o computatores vetere.</description>
+    <description xml:lang="id">LXDE adalah lingkungan desktop ringan X11 yang didesain untuk komputer dengan spesifikasi perangkat keras rendah seperti netbook, perangkat mobile atau komputer lama.</description>
+    <description xml:lang="it">LXDE è un semplice ambiente desktop X11 ideato per computer con hardware non performante come ad esempio netbook, dispositivi mobili e vecchi computer.</description>
+    <description xml:lang="ja">LXDE は、ネットブックや、携帯デバイスや、旧型のコンピュータのような低スペックなハードウェアのために設計された軽量のデスクトップ環境です。</description>
+    <description xml:lang="kn">LXDE ಯು ಒಂದು ಹಗುರತೂಕದ X11 ಗಣಕತೆರೆ ಪರಿಸರವಾಗಿದ್ದು, ನೋಟ್‌ಬುಕ್‌ಗಳು, ಮೊಬೈಲ್ ಸಾಧನಗಳು ಹಾಗು ಹಳೆಯ ಗಣಕಗಳಂತಹ ಕಡಿಮೆ ಯಂತ್ರಾಂಶ ವಿಶೇಷತೆಗಳನ್ನು ಹೊಂದಿರುವ ಗಣಕಗಳಿಗೆ ಸೂಕ್ತವಾಗುವ ರೀತಿಯಲ್ಲಿ ವಿನ್ಯಸಿಸಲಾಗಿದೆ.</description>
+    <description xml:lang="ko">LXDE는 넷북 및 모바일 장치와 구형 컴퓨터와 같은 낮은 사양의 하드웨어를 갖는 컴퓨터를 위해 설계된 경량 X11 데스크탑 환경입니다.</description>
+    <description xml:lang="lv">LXDE ir viegla X11 darbvirsmas vide, kas ir veidota datoriem ar ne visai jaudīgu aparatūru, piemēram, interneta klēpjdatoriem, mobilajām ierīcēm vai vecākiem datoriem.</description>
+    <description xml:lang="mai">LXDE एकटा हलुक X11 डेस्कटाप वातावरण अछि जे वहिन कंप्यूटरक लेल डिजायन कएल गेल अछि जे नेटबुक, मोबाइल युक्ति अथवा पुरान कंप्यूटर अछि.</description>
+    <description xml:lang="ml">പഴയ കമ്പ്യൂട്ടറുകള്‍ അല്ലെങ്കില്‍ നെറ്റ്ബുക്സ്, മൊബൈല്‍ ഡിവൈസുകള്‍ എന്നിങ്ങനെയുള്ള ലോ ഹാര്‍ഡ്‌വെയര്‍ വിവരണങ്ങളുള്ള കമ്പ്യൂട്ടറുകള്‍ക്കായുള്ള ഒരു ലൈറ്റ്‌വെയിറ്റ് X11 ഡസ്ക്ടോപ്പ് എന്‍വയോണ്മെന്റാകുന്നു LXDE.</description>
+    <description xml:lang="mr">LXDE हे कमी हार्डवेअर संयोजना असलेले संगणक जसे की नेटबूक्स्, मोबाईल साधन किंवा जुणे संगणक करीता हलके X11 डेस्कटॉप वातावरण आहे.</description>
+    <description xml:lang="nb">LXDE er et lett skrivebordsmiljø for X11 som er utformet for datamaskiner med beskjeden maskinvarespesifikasjon som netbooks, bærbare enheter eller eldre datamaskiner.</description>
+    <description xml:lang="nl">LXDE is een lichtgewicht X11-bureaubladomgeving ontworpen voor computers met minder krachtige hardware zoals netbooks, mobiele apparaten of oudere computers.</description>
+    <description xml:lang="or">LXDE ଟି ନେଟବୁକ, ମୋବାଇଲ ଉପକରଣ ଅଥବା ପୁରୁଣା କମ୍ପୁଟରଗୁଡ଼ିକ ପରି ସ୍ୱଳ୍ପ ହାର୍ଡୱେର ନିର୍ଦ୍ଦିଷ୍ଟକ ସୂଚନା ସହିତ କମ୍ପୁଟର ପାଇଁ ଗୋଟିଏ ହାଲୁକା X11 ଡେସ୍କଟପ ପରିବେଶ।</description>
+    <description xml:lang="pa">LXDE ਇੱਕ ਹਲਕਾ X11 ਡੈਸਕਟਾਪ ਇਨਵਾਇਰਮੈਂਟ ਹੈ ਜੋ ਘੱਟ ਦਰਜੇ ਦੇ ਹਾਰਡਵੇਅਰ ਵਾਲੇ ਕੰਪਿਊਟਰਾਂ ਲਈ ਬਣਾਇਆ ਹੈ ਜਿਵੇਂ ਨੈੱਟਬੁੱਕ, ਮੋਬਾਈਲ ਜੰਤਰ ਜਾਂ ਪੁਰਾਣੇ ਕੰਪਿਊਟਰ।</description>
+    <description xml:lang="pl">LXDE jest lekkim środowiskiem graficznym X11 zaprojektowanym dla komputerów ze słabym sprzętem, takich jak netbooki, urządzenia mobilne lub starsze komputery.</description>
+    <description xml:lang="pt">LXDE é um ambiente da área de trabalho X11 simples, desenhado para computadores com especificações de hardware modestas, tais como netbooks, dispositivos móveis ou computadores mais antigos.</description>
+    <description xml:lang="pt_BR">O LXDE é um ambiente de trabalho leve para o X11 projetado para computadores com especificações de hardware mais modestas como netbooks, dispositivos móveis e computadores mais antigos.</description>
+    <description xml:lang="ru">LXDE представляет собой облегчённый вариант графической среды X11, который оптимально подходит для компьютеров с невысокими параметрами оборудования: ноутбуков, мобильных устройств и старых компьютеров.</description>
+    <description xml:lang="sk">LXDE je jednoduché pracovné prostredie X11 navrhnuté pre slabšie počítače ako netbooky, mobilné zariadenia a staršie počítače.</description>
+    <description xml:lang="sr">LXDE је лагано X11 радно окружење дизајнирано за рачунаре са слабим хардверским спецификацијама као што су нетбукови, мобилни уређаји или старији рачунари.</description>
+    <description xml:lang="sr@Latn">LXDE je lagano X11 radno okruženje dizajnirano za računare sa slabim hardverskim specifikacijama kao što su netbukovi, mobilni uređaji ili stariji računari.</description>
+    <description xml:lang="sr@latin">LXDE je lagano X11 radno okruženje dizajnirano za računare sa slabim hardverskim specifikacijama kao što su netbukovi, mobilni uređaji ili stariji računari.</description>
+    <description xml:lang="sv">LXDE är en lättviktig X11 skrivbordsmiljö gjord för datorer med låga hårdvaruspecifikationer som nätböcker, mobila enheter eller äldre datorer.</description>
+    <description xml:lang="ta">LXDE என்பது ஒரு lightweight X11 பணிமேடை சூழல் இது குறைந்த வன்பொருள் குறிப்பீடுகளான நெட்புக்கள், மொபைல் சாதனங்கள் அல்லது பழைய கணினிகளுக்காக வடிவமைக்கப்பட்டது.</description>
+    <description xml:lang="te">నెట్‌బుక్సు, మొబైల్ పరికరములు లేదా పాత కంప్యూటర్లవంటి తక్కువ హార్డువేరు సామర్ధ్యత కంప్యూటర్ల కొరకు రూపొందించబడిందే లైట్‌వెయిట్ X11 డెస్కుటాప్ ఎన్విరాన్మెంట్ LXDE.</description>
+    <description xml:lang="tg">LXDE варианти оддии муҳити графикии X11 мебошад, ки барои компютерҳои фарсуда, ноутбукҳо ва дастгоҳҳои мобилӣ рост мегирад.</description>
+    <description xml:lang="tr">LXDE; netbooklar, mobil aygıtlar ve eski bilgisayarlar gibi düşük donanım özellikli bilgisayarlar için tasarlanmış bir hafif X11 masaüstü ortamıdır.</description>
+    <description xml:lang="uk">LXDE є полегшеним варіантом середовища X11, який оптимально підходить для комп'ютерів з низькою специфікацією обладнання: ноутбуків, мобільних пристроїв та старих комп'ютерів.</description>
+    <description xml:lang="zh_CN">LXDE 是一个轻便的 X11 桌面环境，用于硬件配置较低的计算机，例如上网本、移动设备或者较老的计算机。</description>
+    <description xml:lang="zh_TW">LXDE 是個為低階規格的電腦 (如手提電腦、行動裝置或較舊的電腦) 所設計的輕型 X11 桌面環境。</description>
+    <display_order>20</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>lxde-desktop</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid>lxde-apps</groupid>
+      <groupid>lxde-media</groupid>
+      <groupid>lxde-office</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>lxqt-desktop-environment</id>
+    <name>LXQt Desktop</name>
+    <name xml:lang="af">LXQt-werkskerm</name>
+    <name xml:lang="bg">LXQt Работен плот</name>
+    <name xml:lang="ca">Escriptori LXQt</name>
+    <name xml:lang="cs">Pracovní prostředí LXQt</name>
+    <name xml:lang="da">LXQt-skrivebord</name>
+    <name xml:lang="de">LXQt-Benutzeroberfläche</name>
+    <name xml:lang="es">Escritorio LXQt</name>
+    <name xml:lang="fi">LXQt-työpöytä</name>
+    <name xml:lang="fr">Bureau LXQt</name>
+    <name xml:lang="hu">LXQt asztali környezet</name>
+    <name xml:lang="id">Desktop LXQt</name>
+    <name xml:lang="it">Desktop LXQt</name>
+    <name xml:lang="ko">LXQt 데스크탑</name>
+    <name xml:lang="nb">LXQt-skrivebord</name>
+    <name xml:lang="nl">LXQt bureaublad</name>
+    <name xml:lang="pa">LXQt ਡੈਸਕਟਾਪ</name>
+    <name xml:lang="pl">Środowisko LXQt</name>
+    <name xml:lang="pt">Àrea de Trabalho LXQt</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho LXQt</name>
+    <name xml:lang="ru">Рабочий стол LXQt</name>
+    <name xml:lang="sk">Pracovné prostredie LXQt</name>
+    <name xml:lang="sv">LXQt-skrivbordet</name>
+    <name xml:lang="tr">LXQt Masaüstü</name>
+    <name xml:lang="uk">Графічне середовище LXQt</name>
+    <name xml:lang="zh_CN">LXQt 桌面环境</name>
+    <name xml:lang="zh_TW">LXQt 桌面</name>
+    <description>LXQt is a lightweight X11 desktop environment designed for computers with low hardware specifications like netbooks, mobile devices or older computers.</description>
+    <description xml:lang="af">LXQt is ’n liggewig-X11-werkskermomgewing wat ontwerp is vir rekenaars met beperkte hardewarespesifikasies soos netboeke, mobiele toestelle of ouer rekenaars.</description>
+    <description xml:lang="bg">LXQt е лека X11 работна среда, създадена за компютри с ниски хардуерни характеристики като нетбуци, мобилни устройства или по-стари компютри.</description>
+    <description xml:lang="ca">LXQt és un escriptori lleuger per a X11 dissenyat per a ordinadors amb pocs recursos, com ara miniportàtils, dispositius mòbils o ordinadors vells.</description>
+    <description xml:lang="cs">LXQt je odlehčené uživatelské prostředí nad X Window System (X11) pro počítače s málo výkonným hardwarem, jako jsou netbooky, mobilní zařízení nebo starší počítače.</description>
+    <description xml:lang="da">LXQt er et letvægts X11-skrivebordsmiljø designet til computere med lave hardwarespecifikationer, såsom netbooks, mobile enheder eller ældre computere.</description>
+    <description xml:lang="de">LXQt ist eine schlanke X11-Arbeitsumgebung, welche für Rechner mit leistungsschwacher Hardware, wie Netbooks, mobile Geräte oder ältere Rechner entwickelt wurde.</description>
+    <description xml:lang="es">LXQt es un entorno de escritorio de X11 liviano diseñado para computadoras con bajas especificaciones de hardware, como las netbooks, dispositivos móviles y computadoras viejas.</description>
+    <description xml:lang="fi">LXQt on kevyt X11-työpöytäympäristö, joka on suunniteltu vähäisillä laitteiston ominaisuuksilla varustetuille tietokoneille, kuten miniläppäreille, mobiililaitteille ja vanhoille tietokoneille.</description>
+    <description xml:lang="fr">LXQt est un environnement de bureau X11 léger, conçu pour des ordinateurs de faible puissance, tels que les netbooks, les appareils mobiles, ou d’anciens ordinateurs.</description>
+    <description xml:lang="hu">Az LXQt egy pehelykönnyű X11 asztali környezet alacsony hardverspecifikációjú számítógépek számára, mint például netbookok, mobileszközök vagy régebbi számítógépek.</description>
+    <description xml:lang="it">LXQt è un ambiente desktop X11 leggero ideato per computer con hardware non performante come netbook, dispositivi mobili e computer datati.</description>
+    <description xml:lang="ko">LXDE는 넷북 및 모바일 장치와 구형 컴퓨터와 같은 낮은 사양의 하드웨어를 갖는 컴퓨터를 위해 설계된 경량 X11 데스크탑 환경입니다.</description>
+    <description xml:lang="nl">LXQt is een lichtgewicht X11 bureaubladomgeving ontworpen voor computers met minder krachtige hardware zoals netbooks, mobiele apparaten of oudere computers.</description>
+    <description xml:lang="pa">LXQt ਇੱਕ ਹਲਕਾ X11 ਡੈਸਕਟਾਪ ਇਨਵਾਇਰਮੈਂਟ ਹੈ ਜੋ ਘੱਟ ਦਰਜੇ ਦੇ ਹਾਰਡਵੇਅਰ ਵਾਲੇ ਕੰਪਿਊਟਰਾਂ ਲਈ ਬਣਾਇਆ ਹੈ ਜਿਵੇਂ ਨੈੱਟਬੁੱਕ, ਮੋਬਾਈਲ ਜੰਤਰ ਜਾਂ ਪੁਰਾਣੇ ਕੰਪਿਊਟਰ।</description>
+    <description xml:lang="pl">LXQt jest lekkim środowiskiem graficznym X11 zaprojektowanym dla komputerów ze słabym sprzętem, takich jak netbooki, urządzenia mobilne lub starsze komputery.</description>
+    <description xml:lang="pt">LXQt é um ambiente da área de trabalho X11 simples, desenhado para computadores com especificações de hardware modestas, tais como netbooks, dispositivos móveis ou computadores mais antigos.</description>
+    <description xml:lang="pt_BR">O LXQt é um ambiente de trabalho leve para o X11 projetado para computadores com especificações de hardware mais modestas como netbooks, dispositivos móveis e computadores mais antigos.</description>
+    <description xml:lang="ru">LXQt представляет собой облегчённый вариант графической среды X11, предназначенный для компьютеров с невысокими параметрами оборудования: ноутбуков, мобильных устройств и старых компьютеров.</description>
+    <description xml:lang="sk">LXQt je jednoduché pracovné prostredie X11 navrhnuté pre slabšie počítače ako netbooky, mobilné zariadenia a staršie počítače.</description>
+    <description xml:lang="sv">LXQt är en lättviktig X11-skrivbordsmiljö gjord för datorer med låga hårdvaruspecifikationer som nätböcker, mobila enheter eller äldre datorer.</description>
+    <description xml:lang="tr">LXQt; netbooklar, mobil aygıtlar ve eski bilgisayarlar gibi düşük donanım özellikli bilgisayarlar için tasarlanmış bir hafif X11 masaüstü ortamıdır.</description>
+    <description xml:lang="uk">LXQt є полегшеним варіантом середовища X11, який оптимально підходить для комп'ютерів з низькою специфікацією обладнання: ноутбуків, мобільних пристроїв та старих комп'ютерів.</description>
+    <description xml:lang="zh_CN">LXQt 是一个轻便的 X11 桌面环境，用于硬件配置较低的计算机，例如上网本、移动设备或者较老的计算机。</description>
+    <description xml:lang="zh_TW">LXQt 是個為低階規格的電腦，如：網路筆電、行動裝置、或較舊的電腦等，所設計的輕量級 X11 桌面環境。</description>
+    <display_order>21</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>lxqt-desktop</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid>lxqt-apps</groupid>
+      <groupid>lxqt-media</groupid>
+      <groupid>lxqt-office</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>mate-desktop-environment</id>
+    <name>MATE Desktop</name>
+    <name xml:lang="af">MATE-werkskerm</name>
+    <name xml:lang="bg">MATE Работен плот</name>
+    <name xml:lang="ca">Escriptori MATE</name>
+    <name xml:lang="cs">Pracovní prostředí MATE</name>
+    <name xml:lang="da">MATE-skrivebord</name>
+    <name xml:lang="de">MATE-Benutzeroberfläche</name>
+    <name xml:lang="en_GB">MATE Desktop</name>
+    <name xml:lang="es">Escritorio MATE</name>
+    <name xml:lang="fi">MATE-työpöytä</name>
+    <name xml:lang="fr">Bureau MATE</name>
+    <name xml:lang="hu">MATE asztali környezet</name>
+    <name xml:lang="ia">Scriptorio MATE</name>
+    <name xml:lang="id">Desktop MATE</name>
+    <name xml:lang="it">Desktop MATE</name>
+    <name xml:lang="ja">MATE デスクトップ</name>
+    <name xml:lang="ko">메이트 데스크탑</name>
+    <name xml:lang="nb">MATE skrivebord</name>
+    <name xml:lang="nl">MATE bureaublad</name>
+    <name xml:lang="pa">ਮੇਟ ਡੈਸਕਟਾਪ</name>
+    <name xml:lang="pl">Środowisko MATE</name>
+    <name xml:lang="pt">Àrea de Trabalho MATE</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho MATE</name>
+    <name xml:lang="ru">Рабочая среда MATE</name>
+    <name xml:lang="sk">Pracovné prostredie MATE</name>
+    <name xml:lang="sr">MATE окружење</name>
+    <name xml:lang="sv">MATE-skrivbordet</name>
+    <name xml:lang="te">MATE డెస్కుపాట్</name>
+    <name xml:lang="tr">MATE Masaüstü</name>
+    <name xml:lang="uk">Графічне середовище MATE</name>
+    <name xml:lang="zh_CN">MATE 桌面环境</name>
+    <name xml:lang="zh_TW">MATE 桌面</name>
+    <description>MATE Desktop is based on GNOME 2 and provides a powerful graphical user interface for users who seek a simple easy to use traditional desktop interface.</description>
+    <description xml:lang="af">Die MATE-werkskerm is gebaseer op GNOME 2 en bied ’n kragtige grafiese gebruikerskoppelvlak vir gebruikers wat ’n eenvoudige, tradisionele werkskermkoppelvlak soek wat maklik is om te gebruik.</description>
+    <description xml:lang="bg">Десктопът MATE е базиран на GNOME 2 и предоставя мощен графичен потребителски интерфейс за потребители, които търсят лесен за употреба, традиционен графичен интерфейс.</description>
+    <description xml:lang="ca">L'escriptori MATE es basa en GNOME 2 i proporciona una potent interfície gràfica d'usuari per als usuaris que busquen una manera fàcil d'utilitzar una interfície d'escriptori tradicional.</description>
+    <description xml:lang="cs">Pracovní prostředí MATE je založené na GNOME 2 a poskytuje silné grafické uživatelské prostředí určené uživatelům hledajících prosté a na použití jednoduché pracovní rozhraní.</description>
+    <description xml:lang="da">MATE-skrivebordet er baseret på GNOME 2 og giver en kraftfuld grafisk brugerflade til brugere som søger et traditionelt skrivebord som er simpelt og let at bruge.</description>
+    <description xml:lang="de">MATE basiert auf GNOME 2 und stellt eine klassische, einfach zu bedienende Benutzeroberfläche zur Verfügung.</description>
+    <description xml:lang="en_GB">MATE Desktop is based on GNOME 2 and provides a powerful graphical user interface for users who seek a simple easy to use traditional desktop interface.</description>
+    <description xml:lang="es">MATE está basado en GNOME 2 y proporciona un potente entorno visual para usuarios que buscan un escritorio simple y tradicional.</description>
+    <description xml:lang="fi">MATE-työpöytä perustuu Gnome 2:een ja tarjoaa tehokkaan graafisen käyttöliittymän käyttäjälle, joka etsii yksinkertaista ja helppokäyttöistä perinteistä työpöytää.</description>
+    <description xml:lang="fr">Le bureau MATE est basé sur GNOME 2 et fournit une interface graphique puissante pour les utilisateurs recherchant une interface graphique traditionnelle et simple d’utilisation.</description>
+    <description xml:lang="hu">A MATE asztali környezet a GNOME 2-n alapszik, és egy hatékony grafikus felhasználói felületet biztosít azon felhasználók számára, akik egyszerű, könnyen kezelhető hagyományos asztali felületet keresnek.</description>
+    <description xml:lang="ia">Le scriptorio MATE se basa sur GNOME 2 e provide un interfacie graphic pro usatores qui perquire un interfacie de scriptorio traditional, simple e facile a utilisar.</description>
+    <description xml:lang="it">Il Desktop MATE è basato su GNOME 2 e fornisce all'utente una potente interfaccia grafica se si cerca una interfaccia desktop semplice e di facile utilizzo</description>
+    <description xml:lang="ja">MADE デスクトップは GNOME 2 ベースのパワフルなグラフィカルユーザーインタフェースを提供します。シンプルさを求める人や従来型のデスクトップインタフェースで使いたい人にお勧めします。</description>
+    <description xml:lang="ko">메이트 데스크탑은 그놈2를 기반으로 하였으며, 간단하고 손쉽게 전통적인 데스크탑 연결장치를 찾는 사용자를 위한 강력한 그래픽 사용자 연결장치를 제공합니다.</description>
+    <description xml:lang="nb">MATE-skrivebordet er basert på GNOME 2, og tilbyr et kraftig grafisk brukergrensesnitt for dem som ønsker et tradisjonelt oppsett som er enkelt å bruke.</description>
+    <description xml:lang="nl">MATE-bureaublad is gebaseerd op GNOME 2 en biedt een krachtige grafische gebruikersinterface voor gebruikers die zoeken naar een eenvoudig, gemakkelijk te gebruiken, traditioneel bureaubladinterface.</description>
+    <description xml:lang="pl">MATE to środowisko oparte na GNOME 2, dostarczające interfejs użytkownika o wielu możliwościach dla użytkowników poszukujących prostego, łatwego w obsłudze tradycyjnego interfejsu pulpitu.</description>
+    <description xml:lang="pt">MATE Desktop é baseado no GNOME 2 e fornece um interface gráfico poderosa para os utilizadores que procuram um simples e fácil de usar interface de desktop tradicional.</description>
+    <description xml:lang="pt_BR">O MATE Desktop é uma ambiente gráfico baseado no GNOME 2 e oferece uma poderosa interface gráfica ao usuário que busca uma simples fácil e tradicional interface.</description>
+    <description xml:lang="ru">Графическая среда MATE на основе GNOME 2, предоставляющая мощный графический пользовательский интерфейс тем, кто ищет простой, легкий в использовании традиционный интерфейс рабочего стола.</description>
+    <description xml:lang="sk">Pracovné prostredie MATE je založené na GNOME 2 a poskytuje silné grafické užívateľské prostredie určené užívateľom, ktoré hľadajú jednoduché použiteľné pracovné prostredie.</description>
+    <description xml:lang="sr">МАТЕ Окружење је заснован на GNOME 2 и обезбеђује моћно графичко окружење за кориснике који траже лако и једноставно традиционално окружење.</description>
+    <description xml:lang="sv">Skrivbordet MATE är baserat på GNOME 2 och erbjuder ett kraftfullt grafiskt användargränssnitt för användare som är ute efter ett enkelt och lättanvänt traditionellt skrivbordsgränssnitt.</description>
+    <description xml:lang="te">MATE డెస్క్టాప్ ఒక సులభమైన, సంప్రదాయ డెస్క్టాప్ ఇంటర్ఫేస్ కోరుకునే వినియోగదారులకు శక్తివంతమైన గ్రాఫికల్ యూజర్ ఇంటర్ఫేస్ అందించే GNOME 2 ఆధారంగా ఒక డెస్క్టాప్.</description>
+    <description xml:lang="tr">MATE Masaüstü, GNOME 2 tabanlıdır ve yalın kullanımı kolay geleneksel masaüstü arayüzü arayan kullanıcılar için güçlü bir grafiksel kullanıcı arayüzü sunar.</description>
+    <description xml:lang="uk">Графічне середовище MATE є середовищем, заснованим на GNOME 2. Це середовище забезпечує роботу потужного графічного інтерфейсу для користувачів, яким потрібен простий у користуванні традиційний графічний інтерфейс.</description>
+    <description xml:lang="zh_CN">MATE 桌面环境基于 GNOME 2，并为寻找传统桌面环境的用户提供强大的图形界面。</description>
+    <description xml:lang="zh_TW">MATE 桌面是一款基於 GNOME 2 的桌面環境，提供強大的圖形化使用介面，適合尋求簡單、易用之傳統桌面介面的使用者。</description>
+    <display_order>23</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>mate-desktop</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>compiz</groupid>
+      <groupid>libreoffice</groupid>
+      <groupid>mate-applications</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>minimal-environment</id>
+    <name>Minimal Install</name>
+    <name xml:lang="af">Minimale installasie</name>
+    <name xml:lang="bg">Минимална инсталация</name>
+    <name xml:lang="ca">Instal·lació mínima</name>
+    <name xml:lang="cs">Minimální instalace</name>
+    <name xml:lang="da">Minimal installation</name>
+    <name xml:lang="de">Minimalinstallation</name>
+    <name xml:lang="en_GB">Minimal Install</name>
+    <name xml:lang="es">Instalación mínima</name>
+    <name xml:lang="fi">Vähimmäisasennus</name>
+    <name xml:lang="fr">Installation minimale</name>
+    <name xml:lang="hu">Minimális telepítés</name>
+    <name xml:lang="ia">Installation minime</name>
+    <name xml:lang="id">Instalasi Minimum</name>
+    <name xml:lang="it">Installazione minima</name>
+    <name xml:lang="ja">最小限のインストール</name>
+    <name xml:lang="ko">최소 설치</name>
+    <name xml:lang="nb">Minimal installasjon</name>
+    <name xml:lang="nl">Minimale installatie</name>
+    <name xml:lang="pa">ਘੱਟੋ-ਘੱਟ ਇੰਸਟਾਲ</name>
+    <name xml:lang="pl">Minimalna instalacja</name>
+    <name xml:lang="pt">Instalaçao minima</name>
+    <name xml:lang="pt_BR">Instalação Mínima</name>
+    <name xml:lang="ru">Минимальная установка</name>
+    <name xml:lang="sk">Minimálna inštalácia</name>
+    <name xml:lang="sr">Минимална инсталација</name>
+    <name xml:lang="sv">Minimal installation</name>
+    <name xml:lang="te">కనీస సంస్థాపనా</name>
+    <name xml:lang="tr">Asgari Kurulum</name>
+    <name xml:lang="uk">Мінімальне встановлення</name>
+    <name xml:lang="zh_CN">最小化安装</name>
+    <name xml:lang="zh_TW">最小安裝</name>
+    <description>Basic functionality.</description>
+    <description xml:lang="af">Basiese funksionaliteit.</description>
+    <description xml:lang="bg">Основна функционалност.</description>
+    <description xml:lang="ca">Funcionalitat bàsica.</description>
+    <description xml:lang="cs">Základní funkčnost.</description>
+    <description xml:lang="da">Grundlæggende funktionalitet.</description>
+    <description xml:lang="de">Grundfunktionalität</description>
+    <description xml:lang="en_GB">Basic functionality.</description>
+    <description xml:lang="es">Funcionalidad básica.</description>
+    <description xml:lang="fi">Perustoiminnot.</description>
+    <description xml:lang="fr">Fonctionnalités de base.</description>
+    <description xml:lang="hu">Alapvető funkcionalitás.</description>
+    <description xml:lang="ia">Le functionalitate basic.</description>
+    <description xml:lang="id">Fungsi dasar.</description>
+    <description xml:lang="it">Funzionalità base.</description>
+    <description xml:lang="ja">基本的な機能の提供</description>
+    <description xml:lang="ko">기본 기능성.</description>
+    <description xml:lang="nb">Basisfunksjonalitet.</description>
+    <description xml:lang="nl">Basis functionaliteit.</description>
+    <description xml:lang="pa">ਮੂਲ ਸਹੂਲਤਾਂ।</description>
+    <description xml:lang="pl">Podstawowa funkcjonalność.</description>
+    <description xml:lang="pt">Funcionalidades basicas.</description>
+    <description xml:lang="pt_BR">Funcionalidade básica.</description>
+    <description xml:lang="ru">Базовая функциональность.</description>
+    <description xml:lang="sk">Základná funkčnosť</description>
+    <description xml:lang="sr">Основна функционалност</description>
+    <description xml:lang="sv">Grundläggande funktionalitet.</description>
+    <description xml:lang="te">ప్రాథమిక కార్యాచరణను</description>
+    <description xml:lang="tr">Temel işlevsellik.</description>
+    <description xml:lang="uk">Базові можливості.</description>
+    <description xml:lang="zh_CN">提供基本功能。</description>
+    <description xml:lang="zh_TW">具備基本功能。</description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>guest-agents</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>standard</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>server-product-environment</id>
+    <name>Fedora Server Edition</name>
+    <name xml:lang="af">Fedora-bedienerweergawe</name>
+    <name xml:lang="bg">Сървърно Издание Fedora</name>
+    <name xml:lang="ca">Edició de Fedora Server</name>
+    <name xml:lang="cs">Vydání Fedora Serveru</name>
+    <name xml:lang="da">Fedora Server-udgave</name>
+    <name xml:lang="de">Fedora Server Edition</name>
+    <name xml:lang="es">Fedora Server Edition</name>
+    <name xml:lang="fi">Fedora Server -julkaisu</name>
+    <name xml:lang="fr">Édition Fedora Server</name>
+    <name xml:lang="hu">Fedora Server kiadás</name>
+    <name xml:lang="id">Edisi Server Fedora</name>
+    <name xml:lang="it">Fedora Server</name>
+    <name xml:lang="ko">페도라 서버용 배포판</name>
+    <name xml:lang="nb">Tjenerutgave av Fedora</name>
+    <name xml:lang="nl">Fedora Server Editie</name>
+    <name xml:lang="pa">ਫੇਡੋਰਾ ਸਰਵਰ ਐਡੀਸ਼ਨ</name>
+    <name xml:lang="pl">Fedora Server Edition</name>
+    <name xml:lang="pt">Fedora - Edição de Servidor</name>
+    <name xml:lang="pt_BR">Edição Fedora Server</name>
+    <name xml:lang="ru">Серверная редакция Fedora</name>
+    <name xml:lang="sk">Vydanie Fedora Server</name>
+    <name xml:lang="sv">Fedora Server-utgåvan</name>
+    <name xml:lang="tr">Fedora Sunucu Sürümü</name>
+    <name xml:lang="uk">Варіант сервера Fedora</name>
+    <name xml:lang="zh_CN">Fedora Server 版本</name>
+    <name xml:lang="zh_TW">Fedora Server 版本</name>
+    <description>An integrated, easier to manage server.</description>
+    <description xml:lang="af">’n Geïntegreerde, makliker manier om ’n bediener te bestuur.</description>
+    <description xml:lang="bg">Интегриран, лесен за управление сървър.</description>
+    <description xml:lang="ca">Un servidor integrat i fàcil de gestionar.</description>
+    <description xml:lang="cs">Integrovaný a snadno spravovatelný server.</description>
+    <description xml:lang="da">En integreret server som er lettere at håndtere.</description>
+    <description xml:lang="de">Server der eine grafische Benutzeroberfläche unmittelbar nach der Installation bereitstellt.</description>
+    <description xml:lang="es">Un servidor integrado y más fácil de administrar.</description>
+    <description xml:lang="fi">Integroitu, helposti hallitava palvelin.</description>
+    <description xml:lang="fr">Un serveur intégré, plus facile à gérer.</description>
+    <description xml:lang="hu">Egy integrált, könnyebben kezelhető kiszolgáló.</description>
+    <description xml:lang="id">Server yang terintegrasi dan lebih mudah dikelola.</description>
+    <description xml:lang="it">Un sistema semplice e integrato di gestione server.</description>
+    <description xml:lang="ko">통합되고, 관리하기 쉬운 서버.</description>
+    <description xml:lang="nb">Integrert, letthåndtert tjener.</description>
+    <description xml:lang="nl">Een geïntegreerde en eenvoudig te beheren server.</description>
+    <description xml:lang="pl">Zintegrowany, łatwy do zarządzania serwer.</description>
+    <description xml:lang="pt">Um servidor integrado e fácil de gerir.</description>
+    <description xml:lang="pt_BR">Um servidor integrado e de fácil gerenciamento.</description>
+    <description xml:lang="ru">Интегрированный, простой в управлении сервер.</description>
+    <description xml:lang="sk">Integrovaný a ľahšie spravovateľný server.</description>
+    <description xml:lang="sv">En integrerad, mer lätthanterad server.</description>
+    <description xml:lang="tr">Tümleşik, yönetimi kolay bir sunucu.</description>
+    <description xml:lang="uk">Інтегрований, простий у керування сервер.</description>
+    <description xml:lang="zh_CN">一个一体化、易于管理的服务器。</description>
+    <description xml:lang="zh_TW">整合且易於管理的伺服器。</description>
+    <display_order>2</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>server-product</groupid>
+      <groupid>standard</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>container-management</groupid>
+      <groupid>domain-client</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>server-hardware-support</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>sugar-desktop-environment</id>
+    <name>Sugar Desktop Environment</name>
+    <name xml:lang="af">Sugar-werkskermomgewing</name>
+    <name xml:lang="ar">بيئة سطح مكتب Sugar</name>
+    <name xml:lang="as">Sugar ডেষ্কটপ পৰিবেশ</name>
+    <name xml:lang="ast">Entornu d'Escritoriu Sugar</name>
+    <name xml:lang="bg">Sugar работна среда</name>
+    <name xml:lang="bn">Sugar ডেস্কটপ পরিবেশ</name>
+    <name xml:lang="bn_IN">Sugar ডেস্কটপ পরিবেশ</name>
+    <name xml:lang="ca">Entorn d'escriptori Sugar</name>
+    <name xml:lang="cs">Prostředí Sugar</name>
+    <name xml:lang="da">Sugar-skrivebordsmiljø</name>
+    <name xml:lang="de">Sugar-Arbeitsumgebung</name>
+    <name xml:lang="el">Επιφάνειες εργασίας Sugar</name>
+    <name xml:lang="en_GB">Sugar Desktop Environment</name>
+    <name xml:lang="es">Entorno de Escritorio Sugar</name>
+    <name xml:lang="et">Sugari töökeskkond</name>
+    <name xml:lang="eu">Sugar mahaigain ingurunea</name>
+    <name xml:lang="fa">محیط رومیزی Sugar</name>
+    <name xml:lang="fi">Sugar-työpöytäympäristö</name>
+    <name xml:lang="fr">Environnement de bureau Sugar</name>
+    <name xml:lang="gu">સુગર ડેસ્કટોપ પર્યાવરણ</name>
+    <name xml:lang="he">סביבת שולחן העבודה Sugar</name>
+    <name xml:lang="hi">सुगर डेस्कटॉप वातावरण</name>
+    <name xml:lang="hu">Sugar asztali környezet</name>
+    <name xml:lang="ia">Ambiente de scriptorio Sugar</name>
+    <name xml:lang="id">Lingkungan Desktop Sugar</name>
+    <name xml:lang="is">SUGAR skjáborðsumhverfi</name>
+    <name xml:lang="it">Ambiente desktop Sugar</name>
+    <name xml:lang="ja">Sugar デスクトップ環境</name>
+    <name xml:lang="kn">ಶುಗರ್ ಗಣಕ ಪರಿಸರಗಳು</name>
+    <name xml:lang="ko">Sugar 데스크탑 환경</name>
+    <name xml:lang="lv">Sugar darbvirsmas vide</name>
+    <name xml:lang="mai">सुगर डेस्कटाप वातावरण</name>
+    <name xml:lang="ml">ശുഗര്‍ ഡസ്ക്ടോപ്പ് എന്‍വയോണ്മെന്റ്</name>
+    <name xml:lang="mr">Sugar डेस्कटॉप वातावरण</name>
+    <name xml:lang="nb">Sugar skrivebordsmiljø</name>
+    <name xml:lang="nl">Sugar bureaublad omgeving</name>
+    <name xml:lang="or">ସୁଗାର ଡେସ୍କଟପ ପରିବେଶ</name>
+    <name xml:lang="pa">ਸ਼ੂਗਰ ਡੈਸਕਟਾਪ ਇੰਵਾਇਰਨਮੈਂਟ</name>
+    <name xml:lang="pl">Środowisko graficzne Sugar</name>
+    <name xml:lang="pt">Ambientes de Trabalho Sugar</name>
+    <name xml:lang="pt_BR">Ambiente de trabalho Sugar</name>
+    <name xml:lang="ru">Графическое окружение Sugar</name>
+    <name xml:lang="sk">Pracovné prostredie Sugar</name>
+    <name xml:lang="sr">Sugar радно окружење</name>
+    <name xml:lang="sr@Latn">Sugar radno okruženje</name>
+    <name xml:lang="sr@latin">Sugar radno okruženje</name>
+    <name xml:lang="sv">Skrivbordsmiljön Sugar</name>
+    <name xml:lang="ta">சுகர் பணிமேடை சூழல்கள்</name>
+    <name xml:lang="te">షుగర్ డెస్కుటాప్ వాతావరణము</name>
+    <name xml:lang="tg">Муҳити мизи кории Sugar</name>
+    <name xml:lang="th">สภาพแวดล้อมเดสก์ท็อป Sugar</name>
+    <name xml:lang="tr">Sugar Masaüstü Ortamı</name>
+    <name xml:lang="uk">Графічне середовище Sugar</name>
+    <name xml:lang="zh_CN">Sugar 桌面环境</name>
+    <name xml:lang="zh_TW">Sugar 桌面環境</name>
+    <description>A software playground for learning about learning.</description>
+    <description xml:lang="af">’n Sagteware-speelterrein vir leer oor die leerproses.</description>
+    <description xml:lang="ar">برنامج للتعلم على طرق التعلم</description>
+    <description xml:lang="as">শিক্ষাৰ কথা শিকিবলৈ চালনাজ্ঞানৰ ক্ৰীড়াস্থল ।</description>
+    <description xml:lang="ast">Un conxuntu de programes pa deprender sobro cómo deprender.</description>
+    <description xml:lang="bg">Място за обучение за ученето.</description>
+    <description xml:lang="bn">শিক্ষার উদ্দেশ্যে একটি শিক্ষামূলক সফ্টওয়্যার ক্রীড়াক্ষেত্র।</description>
+    <description xml:lang="bn_IN">শিক্ষার উদ্দেশ্যে একটি শিক্ষামূলক সফ্টওয়্যার ক্রীড়াক্ষেত্র।</description>
+    <description xml:lang="bs">Softversko igraliste za ucenje o ucenju.</description>
+    <description xml:lang="ca">Programari per a aprendre a aprendre.</description>
+    <description xml:lang="cs">Software pro výuku o vyučování.</description>
+    <description xml:lang="da">En software legeplads til læring om indlæring.</description>
+    <description xml:lang="de">Eine Software-Spielwiese zum Lernen des Lernens.</description>
+    <description xml:lang="el">Ένας χώρος λογισμικού για την εκμάθηση της μάθησης</description>
+    <description xml:lang="en_GB">A software playground for learning about learning.</description>
+    <description xml:lang="es">Un conjunto de programas para aprender sobre cómo aprender.</description>
+    <description xml:lang="et">Tarkvara õppimiseks õppimise kohta.</description>
+    <description xml:lang="fa">زمین بازی نرم‌افزار برای یادگیری دربارهٔ یادگیری است.</description>
+    <description xml:lang="fi">Ohjelmistoleikkikenttä oppimisen oppimiselle.</description>
+    <description xml:lang="fr">Un terrain de jeu logiciel pour apprendre à apprendre.</description>
+    <description xml:lang="gu">શીખવા વિશે શીખવા માટે સોફ્ટવેર પ્લેગ્રાઉન્ડ.</description>
+    <description xml:lang="he">גן שעשועים של לומדות על למידה</description>
+    <description xml:lang="hi">प्रशिक्षण के बारे में सीखने के लिए सॉफ़्टवेयर क्रीड़ास्थली</description>
+    <description xml:lang="hu">Egy tanulásról tanulásra szolgáló szoftverjátszótér.</description>
+    <description xml:lang="ia">Un insimul de software pro apprender a apprender.</description>
+    <description xml:lang="id">Sebuah perangkat lunak taman bermain untuk belajar tentang pelajaran.</description>
+    <description xml:lang="is">Leiksvæði með forritum til að læra að læra.</description>
+    <description xml:lang="it">Un insieme di software sull'apprendimento.</description>
+    <description xml:lang="ja">教育ソフトウェア向けのデスクトップ環境です。</description>
+    <description xml:lang="kn">ಶಿಕ್ಷಣದ ಬಗ್ಗೆ ಕಲಿಯಲು ನೆರವಾಗುವ ಒಂದು ತಂತ್ರಾಂಶ ಆಟದ ಮೈದಾನ.</description>
+    <description xml:lang="ko">배움에 대한 학습용 소프트웨어 놀이터입니다.</description>
+    <description xml:lang="lv">Programmatūras rotaļlaukums, lai mācītos par mācīšanos.</description>
+    <description xml:lang="mai">प्रशिक्षणक संबंधमे सीखबाक लेल साफ्टवेयरक क्रीड़ास्थली</description>
+    <description xml:lang="ml">പഠനങ്ങള്‍ക്കുള്ള ഒരു സോഫ്റ്റ്‌വെയര്‍ പ്ലേഗ്രൌണ്ട്.</description>
+    <description xml:lang="mr">शिकवणी विषयी शिकवणी करीता सॉफ्टवेअर मंच.</description>
+    <description xml:lang="nb">En programvarelekeplass for å lære om læring.</description>
+    <description xml:lang="nl">Een software speeltuin voor het leren over leren.</description>
+    <description xml:lang="or">କେମିତି ଶିଖିବାକୁ ହୁଏ ତାହା ଶିଖିବା ପାଇଁ ଗୋଟିଏ ସଫ୍ଟୱେର ଖେଳ ପଡ଼ିଆ।</description>
+    <description xml:lang="pa">ਸਿੱਖਣ ਲਈ ਤਿਆਰ ਕੀਤਾ ਸਾਫਟਵੇਅਰ ਪਲੇਅਗਰਾਊਂਡ ਹੈ।</description>
+    <description xml:lang="pl">Oprogramowanie do nauczania uczenia się.</description>
+    <description xml:lang="pt">Um local de ''software'' para aprender sobre a aprendizagem.</description>
+    <description xml:lang="pt_BR">Um parque de diversões de software para aprender sobre aprender.</description>
+    <description xml:lang="ru">Место для ознакомления с процессом обучения.</description>
+    <description xml:lang="sk">Softvér pre výučbu učenia.</description>
+    <description xml:lang="sr">Софтверско игралиште за учење о учењу.</description>
+    <description xml:lang="sr@Latn">Softversko igralište za učenje o učenju.</description>
+    <description xml:lang="sr@latin">Softversko igralište za učenje o učenju.</description>
+    <description xml:lang="sv">En programlekstuga för att lära om lärande.</description>
+    <description xml:lang="ta">கற்றலை கற்பது தொடர்பான ஒரு மென்பொருள் விளையாட்டு மைதானம்</description>
+    <description xml:lang="te">నేర్చుకున్నదాన్ని గురించి నేర్చుకోవటానికి ఒక సాఫ్టువేర్ ఆటస్థలము.</description>
+    <description xml:lang="tg">Ҷой барои омӯзиш дар бораи омӯзиш.</description>
+    <description xml:lang="th">ซอฟต์แวร์สนามเด็กเล่นสำหรับเรียนรู้ที่จะเรียนรู้</description>
+    <description xml:lang="tr">Öğrenmek hakkında öğrenmek için bir yazılımsal oyun alanı.</description>
+    <description xml:lang="uk">Місце для ознайомлення з процесом навчання.</description>
+    <description xml:lang="zh_CN">一个教您如何学习的软件园地。</description>
+    <description xml:lang="zh_TW">設計給學習用，以及有關學習的軟體園地。</description>
+    <display_order>25</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>standard</groupid>
+      <groupid>sugar-desktop</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>sugar-apps</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>web-server-environment</id>
+    <name>Web Server</name>
+    <name xml:lang="af">Webbediener</name>
+    <name xml:lang="am">የድር ሰርቨር</name>
+    <name xml:lang="ar">خادم وٍبْ</name>
+    <name xml:lang="as">ওৱেব সেৱক ।</name>
+    <name xml:lang="ast">Sirvidor Web</name>
+    <name xml:lang="bal">سرور وب</name>
+    <name xml:lang="be">Паслужнік павуціньня</name>
+    <name xml:lang="bg">Уеб сървър</name>
+    <name xml:lang="bn">ওয়েব সার্ভার</name>
+    <name xml:lang="bn_IN">ওয়েব সার্ভার</name>
+    <name xml:lang="bs">Internetski poslužitelj</name>
+    <name xml:lang="ca">Servidor web</name>
+    <name xml:lang="cs">Web server</name>
+    <name xml:lang="cy">Gweinydd Gwe</name>
+    <name xml:lang="da">Webserver</name>
+    <name xml:lang="de">Web Server</name>
+    <name xml:lang="el">Εξυπηρετητής ιστοσελίδων</name>
+    <name xml:lang="en_GB">Web Server</name>
+    <name xml:lang="es">Servidor Web</name>
+    <name xml:lang="et">Veebiserver</name>
+    <name xml:lang="eu">Web zerbitzaria</name>
+    <name xml:lang="fa">کارگزار وب</name>
+    <name xml:lang="fi">WWW-palvelin</name>
+    <name xml:lang="fr">Serveur Web</name>
+    <name xml:lang="gl">Servidor web</name>
+    <name xml:lang="gu">વેબ સર્વર</name>
+    <name xml:lang="he">שרת Web</name>
+    <name xml:lang="hi">वेब सर्वर</name>
+    <name xml:lang="hr">Internetski poslužitelj</name>
+    <name xml:lang="hu">Webkiszolgáló</name>
+    <name xml:lang="hy">Վեբ սերվեր</name>
+    <name xml:lang="ia">Servitor web</name>
+    <name xml:lang="id">Server Web</name>
+    <name xml:lang="ilo">Serbidor ti Saput</name>
+    <name xml:lang="is">Vefþjónn</name>
+    <name xml:lang="it">Server Web</name>
+    <name xml:lang="ja">Web サーバー</name>
+    <name xml:lang="ka">ვებ-სერვერი</name>
+    <name xml:lang="kn">ಜಾಲ ಪರಿಚಾರಕ</name>
+    <name xml:lang="ko">웹 서버</name>
+    <name xml:lang="lv">Tīmekļa serveris</name>
+    <name xml:lang="mai">वेब सर्वर</name>
+    <name xml:lang="mk">Веб сервер</name>
+    <name xml:lang="ml">വെബ് സര്‍വര്‍</name>
+    <name xml:lang="mr">जाल(वेब) सेवक</name>
+    <name xml:lang="ms">Pelayan Web</name>
+    <name xml:lang="nb">Webtjener</name>
+    <name xml:lang="ne">वेब सर्भर</name>
+    <name xml:lang="nl">Webserver</name>
+    <name xml:lang="nso">Seabi sa Wepe</name>
+    <name xml:lang="or">ୱେବ ସେବକ</name>
+    <name xml:lang="pa">ਵੈੱਬ ਸਰਵਰ</name>
+    <name xml:lang="pl">Serwer WWW</name>
+    <name xml:lang="pt">Servidor Web</name>
+    <name xml:lang="pt_BR">Servidor Web</name>
+    <name xml:lang="ro">Server Web</name>
+    <name xml:lang="ru">Веб-сервер</name>
+    <name xml:lang="si">වියුණු සේවා දායකය</name>
+    <name xml:lang="sk">WWW server</name>
+    <name xml:lang="sl">Spletni strežnik</name>
+    <name xml:lang="sq">Shërbyes Web</name>
+    <name xml:lang="sr">Веб сервер</name>
+    <name xml:lang="sr@Latn">Veb server</name>
+    <name xml:lang="sr@latin">Veb server</name>
+    <name xml:lang="sv">Webbserver</name>
+    <name xml:lang="ta">இணைய சேவையகம்</name>
+    <name xml:lang="te">వెబ్ సేవిక</name>
+    <name xml:lang="tg">Хидматгоҳи Веб</name>
+    <name xml:lang="th">ตัวให้บริการเว็บ</name>
+    <name xml:lang="tr">Web Sunucusu</name>
+    <name xml:lang="uk">Веб-сервер</name>
+    <name xml:lang="ur">سرور (Web)  ويب  </name>
+    <name xml:lang="vi">Server Web</name>
+    <name xml:lang="zh_CN">Web 服务器</name>
+    <name xml:lang="zh_TW">網頁伺服器</name>
+    <name xml:lang="zu">Umlekeleli we-web</name>
+    <description>Server for serving static and dynamic internet content.</description>
+    <description xml:lang="af">Bediener vir statiese en dinamiese internetinhoud.</description>
+    <description xml:lang="bg">Сървър за предоставяне на статично или динамично съдържание в Интернет.</description>
+    <description xml:lang="ca">Servidor per atendre el contingut estàtic i dinàmic d'Internet.</description>
+    <description xml:lang="cs">Server pro obsluhu statického a dynamického obsahu internetu.</description>
+    <description xml:lang="da">Server til levering af statisk eller dynamisk internetindhold.</description>
+    <description xml:lang="de">Server, um statische oder dynamische Internet-Inhalte zur Verfügung zu stellen.</description>
+    <description xml:lang="en_GB">Server for serving static and dynamic internet content.</description>
+    <description xml:lang="es">Servidor para proporcionar contenido estático y dinámico de Internet.</description>
+    <description xml:lang="fi">Palvelin staattisen ja dynaamisen internet-sisällön tarjoamiseen.</description>
+    <description xml:lang="fr">Serveur de contenu statique et dynamique sur Internet.</description>
+    <description xml:lang="hu">Kiszolgáló statikus és dinamikus internetes tartalmakhoz.</description>
+    <description xml:lang="ia">Le servitor pro distribuer le contento static o dynamic trans le rete.</description>
+    <description xml:lang="it">Server per fornire contenuti internet statici e dinamici. </description>
+    <description xml:lang="ja">インターネットを介した静的コンテンツおよび動的コンテンツの配信サーバー</description>
+    <description xml:lang="ko">정적 및 동적 인터넷 내용을 제공하는 서버.</description>
+    <description xml:lang="nb">Tjener for statisk og dynamisk innhold på internett.</description>
+    <description xml:lang="nl">Server voor aanbieden van statische en dynamische internet inhoud.</description>
+    <description xml:lang="pl">Serwer do udostępniania statycznej i dynamicznej treści WWW.</description>
+    <description xml:lang="pt">Servidor para servir conteúdo estático e dinâmico internet.</description>
+    <description xml:lang="pt_BR">Servidor para servir de conteúdo de internet estático e dinâmico.</description>
+    <description xml:lang="ru">Сервер для обслуживания статического и динамического содержимого сети.</description>
+    <description xml:lang="sk">Server pre obsluhu statického a dynamického obsahu internetu.</description>
+    <description xml:lang="sr">Сервер за опслуживање статичког и динамичког Интернет садржаја.</description>
+    <description xml:lang="sv">Server för att serva statiskt eller dynamiskt internetinnehåll.</description>
+    <description xml:lang="tr">Duruk ve hareketli internet içeriği sunmak için sunucu.</description>
+    <description xml:lang="uk">Сервер для надання послуг з показу статичних або динамічних інтернет-даних.</description>
+    <description xml:lang="zh_CN">提供静态和动态的互联网内容。</description>
+    <description xml:lang="zh_TW">提供靜態與動態網際網路內容服務的伺服器。</description>
+    <display_order>50</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>standard</groupid>
+      <groupid>web-server</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>guest-agents</groupid>
+      <groupid>haproxy</groupid>
+      <groupid>javaenterprise</groupid>
+      <groupid>mongodb</groupid>
+      <groupid>mysql</groupid>
+      <groupid>perl-web</groupid>
+      <groupid>php</groupid>
+      <groupid>rubyonrails</groupid>
+      <groupid>sql-server</groupid>
+      <groupid>tomcat</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>workstation-product-environment</id>
+    <name>Fedora Workstation</name>
+    <name xml:lang="af">Fedora-werkstasie</name>
+    <name xml:lang="bg">Fedora Работна станция</name>
+    <name xml:lang="ca">Fedora Workstation</name>
+    <name xml:lang="cs">Fedora Workstation</name>
+    <name xml:lang="da">Fedora Workstation</name>
+    <name xml:lang="de">Fedora Workstation</name>
+    <name xml:lang="es">Fedora Workstation</name>
+    <name xml:lang="fi">Fedora Workstation</name>
+    <name xml:lang="fr">Fedora Workstation</name>
+    <name xml:lang="hu">Fedora Workstation</name>
+    <name xml:lang="id">Workstation Fedora</name>
+    <name xml:lang="it">Fedora Workstation</name>
+    <name xml:lang="nl">Fedora Workstation</name>
+    <name xml:lang="pa">ਫੇਡੋਰਾ ਵਰਕਸਟੇਸ਼ਨ</name>
+    <name xml:lang="pl">Fedora Workstation</name>
+    <name xml:lang="pt">Estação de trabalho Fedora</name>
+    <name xml:lang="pt_BR">Fedora Workstation</name>
+    <name xml:lang="ru">Fedora Workstation</name>
+    <name xml:lang="sk">Fedora Workstation</name>
+    <name xml:lang="sv">Fedora Workstation</name>
+    <name xml:lang="tr">Fedora İş İstasyonu</name>
+    <name xml:lang="uk">Робоча станція Fedora</name>
+    <name xml:lang="zh_CN">Fedora Workstation</name>
+    <name xml:lang="zh_TW">Fedora Workstation</name>
+    <description>Fedora Workstation is a user friendly desktop system for laptops and PCs.</description>
+    <description xml:lang="af">Fedora-werkstasie is ’n gebruikervriendelike werkskermstelsel vir skoot- en lessenaarrekenaars.</description>
+    <description xml:lang="bg">Fedora Workstation е удобна за ползване десктоп система за лаптопи и стационарни компютри.</description>
+    <description xml:lang="ca">Fedora Workstation és un sistema d'escriptori fàcil d'utilitzar per a portàtils i ordinadors personals.</description>
+    <description xml:lang="cs">Fedora Workstation je uživatelsky přívětivý desktopový systém pro laptopy a PC.</description>
+    <description xml:lang="da">Fedora Workstation er et brugervenligt skrivebordssystem til bærbare og PC'er.</description>
+    <description xml:lang="de">Fedora ist ein benutzerfreundliches Betriebssystem für Laptops und PCs.</description>
+    <description xml:lang="es">Fedora Workstation es un sistema de escritorio fácil de usar, para PC y portátil.</description>
+    <description xml:lang="fi">Fedora Workstation on käyttäjäystävällinen työpöytäjärjestelmä kannettaville ja pöytäkoneille.</description>
+    <description xml:lang="fr">Un système de bureau accueillant pour les ordinateurs portables et fixes.</description>
+    <description xml:lang="hu">A Fedora Workstation egy felhasználóbarát asztali rendszer laptopokra és PC-kre.</description>
+    <description xml:lang="id">Workstation Fedora adalah sebuah sistem desktop yang bersahabat untuk laptop dan PC.</description>
+    <description xml:lang="it">Fedora Workstation è un sistema desktop di facile utilizzo per computer portatili e PC.</description>
+    <description xml:lang="ko">페도라 웍스테이션은 랩탑과 PC를 위한 사용자 친화적인 데스크탑입니다.</description>
+    <description xml:lang="nb">Fedora-arbeidsstasjon er et vennlig skrivebordssystem for bærbare og PC-er.</description>
+    <description xml:lang="nl">Fedora Workstation is een gebruikersvriendelijk bureaubladsysteem voor laptops en PC's.</description>
+    <description xml:lang="pa">ਫੇਡੋਰਾ ਵਰਕਸਟੇਸ਼ਨ ਲੈਪਟਾਪ ਤੇ ਪੀਸੀ ਲਈ ਵਰਤੋਂਕਾਰ ਲਈ ਸੌਖਾ ਡੈਸਕਟਾਪ ਸਿਸਟਮ ਹੈ।</description>
+    <description xml:lang="pl">Fedora Workstation to łatwy w obsłudze system dla laptopów i komputerów stacjonarnych.</description>
+    <description xml:lang="pt">Fedora Workstation é um sistema de área de trabalho fácil de utilizar para portáteis e PCs.</description>
+    <description xml:lang="pt_BR">Fedora Workstation é um ambiente de trabalho amigável para notebooks e PCs.</description>
+    <description xml:lang="ru">Fedora Workstation представляет собой дружелюбную настольную систему для ноутбуков и ПК.</description>
+    <description xml:lang="sk">Fedora Workstation je užívateľsky prívetivý operačný systém pre notebooky a PC.</description>
+    <description xml:lang="sv">Fedora Workstation är ett användarvänligt skrivbordsssytem för bärbara och stationära datorer.</description>
+    <description xml:lang="tr">Fedora Workstation, dizüstü ve kişisel bilgisayarlar için kullanıcı dostu masaüstü sistemidir.</description>
+    <description xml:lang="uk">Fedora Workstation — дружня до користувача стільнична система для ноутбуків та персональних комп’ютерів.</description>
+    <description xml:lang="zh_CN">Fedora Workstation 是面向笔记本电脑和 PC 的用户友好型桌面系统。</description>
+    <description xml:lang="zh_TW">Fedora Workstation 是個友善的桌面系統，適合筆電和個人電腦使用。</description>
+    <display_order>2</display_order>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>container-management</groupid>
+      <groupid>core</groupid>
+      <groupid>firefox</groupid>
+      <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>libreoffice</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>workstation-product</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>arm-tools</groupid>
+    </optionlist>
+  </environment>
+  <environment>
+    <id>xfce-desktop-environment</id>
+    <name>Xfce Desktop</name>
+    <name xml:lang="af">Xfce-werkskerm</name>
+    <name xml:lang="bg">Xfce Работен плот</name>
+    <name xml:lang="ca">Escriptori Xfce</name>
+    <name xml:lang="cs">Pracovní prostředí Xfce</name>
+    <name xml:lang="da">Xfce-skrivebord</name>
+    <name xml:lang="de">Xfce Desktop</name>
+    <name xml:lang="en_GB">Xfce Desktop</name>
+    <name xml:lang="es">Escritorio Xfce</name>
+    <name xml:lang="fi">Xfce-työpöytä</name>
+    <name xml:lang="fr">Bureau Xfce</name>
+    <name xml:lang="hu">Xfce asztali környezet</name>
+    <name xml:lang="ia">Scriptorio Xfce</name>
+    <name xml:lang="id">Destop Xfce</name>
+    <name xml:lang="it">Desktop Xfce</name>
+    <name xml:lang="ja">Xfce デスクトップ</name>
+    <name xml:lang="ko">Xfce 데스크탑</name>
+    <name xml:lang="nb">Xfce skrivebord</name>
+    <name xml:lang="nl">Xfce bureaublad</name>
+    <name xml:lang="pl">Środowisko Xfce</name>
+    <name xml:lang="pt">Àrea de Trabalho Xfce</name>
+    <name xml:lang="pt_BR">Ambiente de Trabalho Xfce</name>
+    <name xml:lang="ru">Рабочая среда Xfce</name>
+    <name xml:lang="sk">Pracovné prostredie Xfce</name>
+    <name xml:lang="sr">Xfce окружење</name>
+    <name xml:lang="sv">Xfce-skrivbordet</name>
+    <name xml:lang="te">Xfce డెస్కుపాట్</name>
+    <name xml:lang="tr">Xfce Masaüstü</name>
+    <name xml:lang="uk">Графічне середовище Xfce</name>
+    <name xml:lang="zh_CN">Xfce 桌面环境</name>
+    <name xml:lang="zh_TW">Xfce 桌面</name>
+    <description>A lightweight desktop environment that works well on low end machines.</description>
+    <description xml:lang="af">’n Liggewig werkskermomgewing wat goed werk op stadige rekenaars.</description>
+    <description xml:lang="am">የቀላል ክብደት ያለው ሠሌዳ አካባኪ በዝቅተኛው ጫፍ የማሽን ክፍል የሚሰራ።</description>
+    <description xml:lang="ar">بيئة سطح مكتب خفيفة تعمل جيدا على الأجهزة القديمة.</description>
+    <description xml:lang="as">এটা লঘুভাৰৰ ডেষ্কট'প পৰিবেশ যি নিম্ন বিন্যাসৰ যন্ত্ৰত ভালকৈ কাম কৰি ।</description>
+    <description xml:lang="ast">Un entornu d'escritoriu llixeru que furrula bien en máquines pequeñes.</description>
+    <description xml:lang="bal">یک سبکین محیط دسکتاپ که په خوبی ته ماشینان کنٹین کار کنت.</description>
+    <description xml:lang="bg">Лека десктоп работна среда, която работи добре на слаби машини.</description>
+    <description xml:lang="bn">নিম্ন ক্ষমতাসম্পন্ন মেশিনে সহজে সঞ্চালনযোগ্য স্বল্পমাপের ডেস্কটপ পরিবেশ।</description>
+    <description xml:lang="bn_IN">নিম্ন ক্ষমতাসম্পন্ন মেশিনে সহজে সঞ্চালনযোগ্য স্বল্পমাপের ডেস্কটপ পরিবেশ।</description>
+    <description xml:lang="ca">Un entorn d'escriptori lleuger que funciona en ordinadors senzills.</description>
+    <description xml:lang="cs">Odlehčené uživatelské prostředí, které dobře funguje na pomalejších počítačích.</description>
+    <description xml:lang="da">Et letvægtsskrivebordsmiljø der virker godt på langsomme computere.</description>
+    <description xml:lang="de">Eine schlanke Desktop-Umgebung, die gut auf älteren Systemen funktioniert.</description>
+    <description xml:lang="el">Μια ελαφριά επιφάνεια εργασίας που αποδίδει πολύ καλά σε παλαιότερα μηχανήματα.</description>
+    <description xml:lang="en_GB">A lightweight desktop environment that works well on low end machines.</description>
+    <description xml:lang="es">Un entorno de escritorio liviano que funciona bien en máquinas pequeñas.</description>
+    <description xml:lang="et">Väikese ressursivajadusega töölauakeskkond, mis sobib väiksema võimsusega arvutitesse.</description>
+    <description xml:lang="fa">یک محیط رومیزی سبک‌وزن که روی دستگاه‌های ضعیف خوب کار می‌کند.</description>
+    <description xml:lang="fi">Kevyt työpöytäympäristö, joka toimii hyvin tehottomillakin koneilla.</description>
+    <description xml:lang="fr">Un environnement de bureau léger adapté aux machines peu puissantes.</description>
+    <description xml:lang="gu">હલકું ડેસ્કટોપ પર્યાવરણ કે જે નીચા મશીનો સાથે યોગ્ય રીતે કામ કરે.</description>
+    <description xml:lang="he">סביבה שולחנית קלה הפועלת היטב גם על מחשבים שאינם רבי עצמה.</description>
+    <description xml:lang="hi">हल्का डेस्कटॉप वातावरण जो कि न्यूनांत मशीन पर ठीक काम करता है.</description>
+    <description xml:lang="hr">Jednostavno okruženje radne površine koje dobro funkcionira na slabijim računalima.</description>
+    <description xml:lang="hu">Pehelysúlyú asztal környezet, ami gyengébb gépeken is jól használható.</description>
+    <description xml:lang="ia">Un ambiente de scriptorio legier que functiona ben sur machinas exigue.</description>
+    <description xml:lang="id">Lingkungan dekstop yang ringan yang dapat bekerja dengan baik pada mesin kinerja rendah.</description>
+    <description xml:lang="is">Létt skjáborðsumhverfi sem virkar vel á aflminni vélum.</description>
+    <description xml:lang="it">Un ambiente desktop performante anche per computer meno potenti.</description>
+    <description xml:lang="ja">低スペックなマシンでもサクサクと動作する軽量デスクトップ環境です。</description>
+    <description xml:lang="kn">ಕೆಳಮಟ್ಟದ ಗಣಕಗಳಲ್ಲಿಯೂ ಕೆಲಸ ಮಾಡಬಲ್ಲಂತಹ ಒಂದು ಹಗುರ ತೂಕದ ಗಣಕತೆರೆ ಪರಿಸರ.</description>
+    <description xml:lang="ko">저 사양 컴퓨터에서도 잘 작동하는 경량의 데스크탑 환경입니다.</description>
+    <description xml:lang="lv">Viegla darbvirsma, kas labi darbojas uz mazjaudīgiem datoriem.</description>
+    <description xml:lang="mai">हलुक डेस्कटाप वातावरण जे न्यूनांत मशीन पर नीक काज करैत अछि.</description>
+    <description xml:lang="mk">Едноставна работна околина што работи одлично на поспори машини.</description>
+    <description xml:lang="ml">ലോ എന്‍ഡ് മഷീനുകളില്‍ ശരിയായി പ്രവര്‍ത്തിക്കുന്ന ലൈറ്റ് വെയിറ്റ് ഡസ്ക്ടോപ്പ് എന്‍വയോണ്മെന്റ്.</description>
+    <description xml:lang="mr">एक हलके डेस्कटॉप वातावरण जे कमी रचनात्मक प्रणालींवर चांगल्या प्रकारे काम करते.</description>
+    <description xml:lang="ms">Persekitaran desktop ringan yang berfungsi dengan baik pada mesin berkuasa rendah.</description>
+    <description xml:lang="nb">Et lettvektig skrivebordsmiljø som fungerer bra på eldre og tregere maskiner.</description>
+    <description xml:lang="ne">चाँडो अन्त्य हुने मेसिनमा राम्रोसँग कार्य गर्ने हल्का डेस्कटप परिवेश ।</description>
+    <description xml:lang="nl">Een lichtgewicht bureaubladomgeving die zeer geschikt is voor minder krachtige machines.</description>
+    <description xml:lang="nso">Tikologo ya teseke e bohwefo yeo e šomago gabotse kudu metšheneng ya tlase.</description>
+    <description xml:lang="or">ଗୋଟିଏ ହାଲୁକା ଡେସ୍କଟପ ପରିବେଶ ଯାହାକି ନିମ୍ନ ଭାଗ ମେସିନ ମାନଙ୍କରେ ଉତ୍ତମ ରୂପେ କାର୍ଯ୍ଯ କରିଥାଏ।</description>
+    <description xml:lang="pa">ਇੱਕ ਹਲਕਾ ਡੈਸਕਟਾਪ ਇੰਵਾਇਰਨਮੈਂਟ, ਜੋ ਕਿ ਘੱਟ ਸੰਰਚਨਾ ਵਾਲੀਆਂ ਮਸ਼ੀਨਾਂ ਉੱਤੇ ਕੰਮ ਕਰਦਾ ਹੈ।</description>
+    <description xml:lang="pl">Lekkie środowisko graficzne, które dobrze działa na słabych komputerach.</description>
+    <description xml:lang="pt">Um ambiente de trabalho leve que funciona bem em máquinas com recursos modestos.</description>
+    <description xml:lang="pt_BR">Um ambiente de trabalho leve que funciona bem em máquinas de baixo custo.</description>
+    <description xml:lang="ro">Un mediu de lucru lejer care funcționează bine pe calculatoare mai slabe.</description>
+    <description xml:lang="ru">Облегчённая среда рабочего стола, подходящая для слабых машин.</description>
+    <description xml:lang="sk">Jednoduché pracovné prostredie, ktoré dobre pracuje na pomalších počítačoch.</description>
+    <description xml:lang="sl">Lahko namizje, ki deluje dobro tudi na skromnih računalnikih.</description>
+    <description xml:lang="sq">Mjedis dekstop i peshës së lehtë që punon bukur në makina të shkallës së fundit.</description>
+    <description xml:lang="sr">Лагано радно окружење које ради добро на слабијим машинама.</description>
+    <description xml:lang="sr@Latn">Lagano radno okruženje koje radi dobro na slabijim mašinama.</description>
+    <description xml:lang="sr@latin">Lagano radno okruženje koje radi dobro na slabijim mašinama.</description>
+    <description xml:lang="sv">En lättviktig skrivbordsmiljö som fungerar bra på långsammare maskiner.</description>
+    <description xml:lang="ta">ஒரு lightweight பணிமேடை சூழல் குறைந்த செயல்திறன் கொண்ட கணினிகளில் நன்றாக பணியாற்றுகிறது.</description>
+    <description xml:lang="te">తక్కువ బరువున్న డెస్కుటాప్ వాతావరణం అది తక్కువ సమాప్తిగల కంప్యూటర్లలో పనిచేస్తుంది.</description>
+    <description xml:lang="tg">Муҳити мизи корие, ки ҳам дар компютерҳои суст кор мекунад.</description>
+    <description xml:lang="th">สภาพแวดล้อมเดสก์ท็อปที่สามารถทำงานได้ดีบนเครื่องรุ่นเก่า</description>
+    <description xml:lang="tr">Alt sınıf makinelerde iyi çalışan bir hafif masaüstü ortamı.</description>
+    <description xml:lang="uk">Невибагливий до ресурсів робочий стіл, що добре працює на слабких машинах.</description>
+    <description xml:lang="zh_CN">一个能在低端机器上良好运行的轻便桌面环境。</description>
+    <description xml:lang="zh_TW">輕型的桌面環境，適用於低階電腦。</description>
+    <display_order>15</display_order>
+    <grouplist>
+      <groupid>admin-tools</groupid>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>printing</groupid>
+      <groupid>standard</groupid>
+      <groupid>xfce-desktop</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>3d-printing</groupid>
+      <groupid>cloud-management</groupid>
+      <groupid default="true">xfce-apps</groupid>
+      <groupid>xfce-extra-plugins</groupid>
+      <groupid default="true">xfce-media</groupid>
+      <groupid>xfce-office</groupid>
+    </optionlist>
+  </environment>
+  <langpacks>
+    <match install="LabPlot-doc-%s" name="LabPlot-doc"/>
+    <match install="aspell-%s" name="aspell"/>
+    <match install="autocorr-%s" name="autocorr-en"/>
+    <match install="calligra-l10n-%s" name="calligra-core"/>
+    <match install="drascula-%s" name="drascula"/>
+    <match install="eclipse-nls-%s" name="eclipse-platform"/>
+    <match install="firefox-langpack-%s" name="firefox"/>
+    <match install="gimp-help-%s" name="gimp-help"/>
+    <match install="hunspell-%s" name="hunspell"/>
+    <match install="hyphen-%s" name="hyphen"/>
+    <match install="kde-l10n-%s" name="kdelibs"/>
+    <match install="kde-i18n-%s" name="kdelibs3"/>
+    <match install="kicad-doc-%s" name="kicad-doc"/>
+    <match install="libreoffice-langpack-%s" name="libreoffice-core"/>
+    <match install="man-pages-%s" name="man-pages"/>
+    <match install="moodle-%s" name="moodle"/>
+    <match install="mythes-%s" name="mythes"/>
+    <match install="nqc-doc-%s" name="nqc-doc"/>
+    <match install="qt5-qtbase-%s" name="qt5-qtbase"/>
+    <match install="sagemath-doc-%s" name="sagemath-doc"/>
+    <match install="stardict-dic-%s" name="stardict"/>
+    <match install="tagainijisho-dic-%s" name="tagainijisho-common"/>
+    <match install="tesseract-langpack-%s" name="tesseract"/>
+    <match install="tkgate-%s" name="tkgate"/>
+  </langpacks>
+</comps>

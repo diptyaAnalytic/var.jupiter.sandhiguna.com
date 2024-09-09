@@ -1,0 +1,5 @@
+/etc/nginx/conf.d/php-fpm.conf
+/etc/nginx/mime.types
+/etc/nginx/nginx.conf
+/etc/nginx/conf.d/mail.conf
+/etc/nginx/default.d/php.conf

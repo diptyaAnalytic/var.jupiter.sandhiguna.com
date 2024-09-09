@@ -1,0 +1,8 @@
+#!/bin/sh -x
+# DigitalOcean resolver fixup script
+[ -f /etc/systemd/resolved.conf ] || exit 0
+logger -t DigitalOcean 'writing resolvers  to /etc/systemd/resolved.conf.d/DigitalOcean.conf'
+mkdir -p /etc/systemd/resolved.conf.d
+printf "[Resolve]\nDNS=67.207.67.2 67.207.67.3\n" > /etc/systemd/resolved.conf.d/DigitalOcean.conf
+systemctl try-reload-or-restart systemd-resolved
+

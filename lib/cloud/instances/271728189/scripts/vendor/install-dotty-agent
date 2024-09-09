@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# This is a wrapper that ensures that the agent is only installed _once_ automatically
+# via cloud-init. Cloud-init 0.7.8 and earlier re-execute included URL's each boot.
+# This script ensures that the agent is only ever installed once.
+
+i_file=https://repos-droplet.digitalocean.com/install.sh
+s_path="/var/lib/cloud/instance/sem"
+s_file="${s_path}/dotty_agent"
+download_timeout=20 # maximum allowed time for downloading the install script, in seconds
+
+mkdir -p ${s_path}
+
+test -f ${s_file} && exit 0
+
+logger -t DOTTY-Agent "fetching and installing DOTTY agent"
+
+if command -v wget &>/dev/null; then
+  n=0
+  until [ "$n" -ge 5 ]; do
+    wget --timeout=${download_timeout} -O ${s_file} ${i_file} && break
+    n=$((n + 1))
+    sleep 2
+  done
+elif command -v curl &>/dev/null; then
+  n=0
+  until [ "$n" -ge 5 ]; do
+    curl --max-time ${download_timeout} -SL --output ${s_file} ${i_file} && break
+    n=$((n + 1))
+    sleep 2
+  done
+else
+  echo "Neither wget nor curl is supported"
+  exit 1
+fi
+
+if [ ! -f ${s_file} ] || [ ! -s ${s_file} ]; then
+  echo "failed to download DOTTY agent install script"
+  exit 1
+fi
+
+chmod 0755 ${s_file}
+
+if test -x ${s_file}; then
+  exec ${s_file} || logger -t DOTTY-Agent "failed to install DOTTY agent"
+fi
+

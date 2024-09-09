@@ -1,0 +1,14 @@
+auto
+/usr/sbin/ebtables
+ebtables-save
+/usr/sbin/ebtables-save
+ebtables-restore
+/usr/sbin/ebtables-restore
+ebtables-man
+/usr/share/man/man8/ebtables.8.gz
+
+/usr/sbin/ebtables-nft
+10
+/usr/sbin/ebtables-nft-save
+/usr/sbin/ebtables-nft-restore
+/usr/share/man/man8/ebtables-nft.8.gz

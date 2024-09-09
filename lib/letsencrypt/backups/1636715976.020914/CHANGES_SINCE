@@ -1,0 +1,10 @@
+-- Deployed ACME Certificate --
+Changed vhost at /etc/nginx/conf.d/mail.conf with addresses of 443 ssl, [::]:80, 80, [::]:443 ssl
+	ssl_certificate /etc/letsencrypt/live/mail.sandhiguna.com/fullchain.pem
+	ssl_certificate_key /etc/letsencrypt/live/mail.sandhiguna.com/privkey.pem
+Changed vhost at /etc/nginx/conf.d/mail.conf with addresses of 443 ssl, [::]:80, 80, [::]:443 ssl
+	ssl_certificate /etc/letsencrypt/live/mail.sandhiguna.com/fullchain.pem
+	ssl_certificate_key /etc/letsencrypt/live/mail.sandhiguna.com/privkey.pem
+Changed vhost at /etc/nginx/conf.d/mail.conf with addresses of 443 ssl, [::]:80, 80, [::]:443 ssl
+	ssl_certificate /etc/letsencrypt/live/mail.sandhiguna.com/fullchain.pem
+	ssl_certificate_key /etc/letsencrypt/live/mail.sandhiguna.com/privkey.pem
